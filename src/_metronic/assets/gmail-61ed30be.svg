@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_4" data-name="Capa 4" xmlns="http://www.w3.org/2000/svg" width="512.475" height="512.193" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.475 512.193">
+  <defs>
+    <linearGradient id="Degradado_sin_nombre_3" data-name="Degradado sin nombre 3" x1="2.413" y1="502.42" x2="7.428" y2="502.42" gradientTransform="translate(-28.1 19449.579) scale(38.276 -38.276)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c8c8c8"/>
+      <stop offset="1" stop-color="#cdcdcd"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" x1="6.499" y1="500.831" x2="12.444" y2="500.831" gradientTransform="translate(-28.1 19449.579) scale(38.276 -38.276)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d9d9d9"/>
+      <stop offset="1" stop-color="#e2e2e2"/>
+    </linearGradient>
+  </defs>
+  <path d="M480.222,424.259H32.237c-17.673,0-31.999-14.326-31.999-31.999V72.27c0-17.673,14.326-31.999,31.999-31.999h447.985c17.673,0,31.999,14.326,31.999,31.999v319.99c0,17.673-14.326,31.999-31.999,31.999Z" fill="#eaeaea" stroke-width="0"/>
+  <path d="M64.236,424.259h-31.999c-17.673,0-31.999-14.326-31.999-31.999V72.27c0-17.673,14.326-31.999,31.999-31.999s31.999,14.326,31.999,31.999v351.989Z" fill="#d54c3f" stroke-width="0"/>
+  <path d="M448.223,424.259h31.999c17.673,0,31.999-14.326,31.999-31.999V72.27c0-17.673-14.326-31.999-31.999-31.999s-31.999,14.326-31.999,31.999v351.989Z" fill="#b63524" stroke-width="0"/>
+  <path d="M498.547,98.51c14.491-10.12,18.035-30.072,7.914-44.564s-30.072-18.035-44.564-7.914l-205.647,149.723-.021.011-.021-.011L50.561,46.031c-14.491-10.12-34.443-6.577-44.564,7.914-10.12,14.491-6.577,34.443,7.914,44.564h0l-.853-.629,243.171,177.05M499.411,97.88l-243.181,177.05" fill="#de5145" stroke-width="0"/>
+  <path d="M480.222,40.272c-6.816,0-13.141,2.133-18.325,5.76l-205.647,149.723-.021.011-.021-.011L50.561,46.031c-5.371-3.759-11.769-5.77-18.325-5.76h447.985Z" fill="#efefef" stroke-width="0"/>
+  <path d="M64.246,148.94L10.318,95.523l-.021.043c1.131,1.067,2.336,2.048,3.616,2.944l-.853-.629,51.198,37.279-.011,14.165" fill="#c64132" stroke-width="0"/>
+  <path d="M220.689,302.567l-156.454,121.692.011-276.652,156.411,154.918" fill="#e3e3e3" stroke-width="0"/>
+  <path d="M220.689,302.567l35.54-27.636L64.246,135.159v12.448l156.411,154.918.032.043Z" fill="url(#Degradado_sin_nombre_3)" stroke-width="0"/>
+  <path d="M342.211,424.259h106.013V135.148l-191.994,139.782-35.572,27.594,121.553,121.735Z" fill="url(#Degradado_sin_nombre_2)" stroke-width="0"/>
+</svg>

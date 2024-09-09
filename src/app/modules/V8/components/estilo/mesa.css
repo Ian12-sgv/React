@@ -1,0 +1,1255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1840px) {
+  .contenido-medio {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .contenedor-izquierdo {
+    background-color: rgba(255, 255, 255, 1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .media-izquierda {
+    display: grid;
+    grid-template-rows: 0.03fr 1fr;
+    width: 100%;
+    height: 100%;
+  }
+  .header-izquierda {
+    display: flex;
+  }
+
+  .seated {
+    padding: 1.8rem 6.18rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    height: 90%;
+    margin-bottom: 0rem;
+  }
+  .reservation {
+    padding: 1.8rem 6.18rem;
+    display: flex;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    height: 90%;
+    margin-bottom: 0rem;
+  }
+  .noti-reservation {
+    position: absolute;
+    padding-left: 8rem;
+  }
+  .reservation-noti {
+    width: 2rem;
+  }
+
+  .contenedor-seated {
+    display: grid;
+    grid-template-rows: 0.04fr 1fr;
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+  .sort {
+    display: flex;
+    padding-left: 3rem;
+  }
+  .sort-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    padding-top: 1.5rem;
+  }
+
+  .sort-img {
+    display: flex;
+    padding-left: 16rem;
+    padding-top: 0.2rem;
+  }
+  .arrow {
+    width: 5rem;
+  }
+
+  .seated-table {
+    display: block;
+    height: 70vh;
+    width: 510px;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+  }
+
+  .contenido-seated1 {
+    display: flex;
+    padding-left: 3rem;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .contenido-seated2 {
+    display: flex;
+    padding-left: 3rem;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .posicion {
+    display: flex;
+    gap: 6.5rem;
+    font-size: 1.5rem;
+  }
+
+  .tablePosition {
+    display: flex;
+  }
+  .tablePositionPax {
+    display: flex;
+  }
+
+  .fechas {
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+  }
+  .fechaHora {
+    padding-right: 4rem;
+  }
+  .contenedorMesa {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .footer-seated {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 100%;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .manage {
+    padding: 2.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid red;
+    color: red;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+  }
+
+  .reservation-table {
+    display: block;
+    height: 70vh;
+    width: 505px;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+  }
+  .contenido-reservation1 {
+    display: flex;
+    padding-left: 3rem;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .botonPaid {
+    position: absolute;
+    padding-left: 30rem;
+  }
+  .buttonElBueno {
+    border: none;
+  }
+  .footer-reserv {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 100%;
+    padding: 5rem 1rem;
+    text-align: center;
+  }
+  .reserv {
+    padding: 2.5rem 12.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(248, 174, 0, 1);
+    color: rgba(248, 174, 0, 1);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+  }
+
+  .contenido-medio-derecho {
+    width: 100%;
+    height: 100%;
+  }
+  .contenedor-derecho {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    width: 100%;
+  }
+
+  .header-derecho {
+    display: flex;
+    justify-content: space-between;
+  }
+  .first-floor {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 8px solid rgba(155, 155, 155, 1);
+    height: 100%;
+    padding-top: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  .second-floor {
+    border: 1px solid rgba(208, 208, 208, 1);
+
+    height: 100%;
+    padding-top: 1.5rem;
+    width: 100%;
+    text-align: center;
+    color: grey;
+    background-color: rgba(247, 247, 247, 1);
+  }
+
+  .outdoor-floor {
+    border: 1px solid rgba(208, 208, 208, 1);
+
+    height: 100%;
+    background-color: rgba(247, 247, 247, 1);
+    width: 100%;
+    color: grey;
+    display: flex;
+  }
+  .Outdoor {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    padding-left: 10rem;
+    padding-top: 1.5rem;
+  }
+  .flechaDerecha {
+    position: absolute;
+    padding-left: 20rem;
+    padding-top: 1.5rem;
+  }
+  .botones {
+    display: flex;
+    border: 1px solid rgba(196, 196, 196, 1);
+    padding-left: 0.2rem;
+  }
+
+  .footer-header {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+  }
+  .botones-footer {
+    display: flex;
+
+    justify-content: flex-end;
+  }
+  .mesas-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    gap: 5rem;
+    padding-left: 4rem;
+  }
+  .modalCrack {
+    padding-top: 8rem;
+  }
+
+  .contenedor-modal {
+    margin-top: 1rem;
+    height: 100%;
+    padding-top: 5rem;
+  }
+  .title-modal {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    margin-left: 3.5rem;
+  }
+
+  .close-modal {
+    position: fixed;
+    padding-left: 35rem;
+    padding-top: 1.5rem;
+  }
+
+  .content-modal-padre {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    gap: 0rem;
+    padding-top: 2rem;
+  }
+  .name {
+    border-radius: 8px;
+    color: red;
+    border: 1px solid rgba(196, 196, 196, 1);
+    width: 80%;
+    padding: 1.5rem 1rem;
+    margin-left: 3.5rem;
+    align-self: center;
+  }
+  .content-pax {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 3.5rem;
+  }
+  .pax {
+    border-radius: 8px;
+    color: red;
+    border: 1px solid rgba(196, 196, 196, 1);
+    align-self: center;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .confirm {
+    border-radius: 8px;
+    color: white;
+    border: 1px solid rgba(255, 46, 46, 1);
+    background-color: rgba(255, 46, 46, 1);
+    width: 80%;
+    padding: 1.5rem 1rem;
+    margin-left: 3.5rem;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    align-self: center;
+    margin-bottom: 2rem;
+  }
+  .reserv-name {
+    color: red;
+  }
+
+  .prueba {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input {
+    width: 80%;
+  }
+
+  .text {
+    padding: 1rem;
+    background-color: red;
+    border-radius: 8px;
+    margin-left: 40rem;
+    position: absolute;
+  }
+  .text-Done {
+    padding: 1rem;
+    background-color: red;
+    border-radius: 8px;
+    margin-left: 40rem;
+    position: absolute;
+    color: white;
+  }
+  .contenido-medio-reserv {
+    background-color: rgba(255, 255, 255, 1);
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    width: 100%;
+    height: 100%;
+  }
+  .contenedor-izquierdo-reserv {
+    background-color: rgba(255, 255, 255, 1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .media-izquierda-reserv {
+    display: grid;
+    grid-template-rows: 0.03fr 1fr;
+    width: 100%;
+    height: 100%;
+  }
+  .header-izquierda-reserv {
+    display: flex;
+  }
+  .seated {
+    padding: 1.8rem 6.18rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    height: 90%;
+    margin-bottom: 0rem;
+  }
+  .reservation {
+    padding: 1.8rem 6.18rem;
+    display: flex;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    height: 90%;
+    margin-bottom: 0rem;
+  }
+
+  .modal-content-mesas {
+    align-self: center;
+  }
+
+  .modal-header-mesas {
+    display: flex;
+    gap: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .count {
+    display: flex;
+    padding-top: 2rem;
+    gap: 5rem;
+    padding-left: 2.5em;
+  }
+  .resta {
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(236, 236, 236, 1);
+    border-radius: 25px;
+    align-self: center;
+    padding: 1rem;
+  }
+  .pax-mesas {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .confirm-mesas {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-left: 1rem;
+    background-color: red;
+    border-radius: 8px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Consulta de medios para pantallas medianas (1366px - 1839px) */
+@media screen and (min-width: 1366px) and (max-width: 1839px) {
+  .contenido-medio {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .contenedor-izquierdo {
+    background-color: rgba(255, 255, 255, 1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  .media-izquierda {
+    display: grid;
+    grid-template-rows: 0.03fr 1fr;
+    width: 100%;
+    height: 100%;
+  }
+  .header-izquierda {
+    display: flex;
+  }
+  .seated {
+    padding: 1.8rem 3.45rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    height: 90%;
+    margin-bottom: 0rem;
+  }
+  .reservation {
+    padding: 1.8rem 3.45rem;
+    display: flex;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    height: 90%;
+    margin-bottom: 0rem;
+  }
+  .noti-reservation {
+    position: absolute;
+    padding-left: 8rem;
+  }
+  .reservation-noti {
+    width: 1.8rem;
+  }
+  .contenedor-seated {
+    display: grid;
+    grid-template-rows: 0.04fr 1.2fr;
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+  .sort {
+    display: flex;
+    padding-left: 1rem;
+  }
+  .sort-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    padding-top: 1.5rem;
+  }
+  .sort-img {
+    display: flex;
+    padding-left: 10rem;
+    padding-top: 0.2rem;
+  }
+  .arrow {
+    width: 4.2rem;
+  }
+  .seated-table {
+    display: block;
+    height: 55vh;
+    width: 360px;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+  }
+  .contenido-seated1 {
+    display: flex;
+
+    background-color: rgb(199, 41, 41);
+  }
+  .contenido-seated1 {
+    display: flex;
+    padding-left: 1rem;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .contenido-seated2 {
+    display: flex;
+    padding-left: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .posicion {
+    display: flex;
+    gap: 6rem;
+    font-size: 1rem;
+  }
+  .tablePosition {
+    display: flex;
+  }
+  .tablePositionPax {
+    display: flex;
+  }
+  .fechas {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 1.3rem;
+  }
+  .fechaHora {
+    padding-right: 2rem;
+  }
+  .contenedorMesa {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .footer-seated {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 100%;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .manage {
+    padding: 2.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid red;
+    color: red;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+  }
+  .reservation-table {
+    display: block;
+    height: 55vh;
+    width: 359px;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(247, 247, 247, 1) rgba(247, 247, 247, 1);
+  }
+  .contenido-reservation1 {
+    display: flex;
+    padding-left: 1rem;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .botonPaid {
+    position: absolute;
+    padding-left: 22rem;
+  }
+  .footer-reserv {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 100%;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .reserv {
+    padding: 2.5rem 0rem;
+    border-radius: 8px;
+    border: 1px solid rgba(248, 174, 0, 1);
+    color: rgba(248, 174, 0, 1);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+  }
+
+  .buttonElBueno {
+    border: none;
+  }
+  .contenido-medio-derecho {
+    width: 100%;
+    height: 100%;
+  }
+  .contenedor-derecho {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    width: 100%;
+  }
+  .header-derecho {
+    display: flex;
+    justify-content: space-between;
+  }
+  .first-floor {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 8px solid rgba(155, 155, 155, 1);
+    height: 100%;
+    padding-top: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  .second-floor {
+    border: 1px solid rgba(208, 208, 208, 1);
+
+    height: 100%;
+    padding-top: 1.5rem;
+    width: 100%;
+    text-align: center;
+    color: grey;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .outdoor-floor {
+    border: 1px solid rgba(208, 208, 208, 1);
+
+    height: 100%;
+    background-color: rgba(247, 247, 247, 1);
+    width: 100%;
+    color: grey;
+    display: flex;
+  }
+  .Outdoor {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    padding-left: 7rem;
+    padding-top: 1.5rem;
+  }
+  .flechaDerecha {
+    position: absolute;
+    padding-left: 15rem;
+    padding-top: 1.5rem;
+  }
+  .botones {
+    display: flex;
+    border: 1px solid rgba(196, 196, 196, 1);
+    padding-left: 0.2rem;
+  }
+  .footer-header {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+  }
+  .botones-footer {
+    display: flex;
+
+    justify-content: flex-end;
+  }
+  .mesas-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+  }
+
+  .mesaReservacion {
+    background-color: aqua;
+    padding: 20rem;
+  }
+}
+
+/* Consulta de medios para pantallas más pequeñas (1200px - 1365px) */
+@media screen and (min-width: 1200px) and (max-width: 1365px) {
+  .contenido-medio {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .contenedor-izquierdo {
+    background-color: rgba(255, 255, 255, 1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  .media-izquierda {
+    display: grid;
+    grid-template-rows: 0.03fr 1fr;
+    width: 100%;
+    height: 100%;
+  }
+  .header-izquierda {
+    display: flex;
+  }
+  .seated {
+    padding: 1.8rem 3.45rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    height: 90%;
+    margin-bottom: 0rem;
+  }
+  .reservation {
+    padding: 1.8rem 3.45rem;
+    display: flex;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    height: 90%;
+    margin-bottom: 0rem;
+  }
+  .noti-reservation {
+    position: absolute;
+    padding-left: 8rem;
+  }
+  .reservation-noti {
+    width: 1.8rem;
+  }
+  .contenedor-seated {
+    display: grid;
+    grid-template-rows: 0.04fr 1.2fr;
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+  .sort {
+    display: flex;
+    padding-left: 1rem;
+  }
+  .sort-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    padding-top: 1rem;
+  }
+  .sort-img {
+    display: flex;
+    padding-left: 10rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+  .arrow {
+    width: 4.2rem;
+  }
+  .seated-table {
+    display: block;
+    height: 55vh;
+    width: 360px;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+  }
+  .contenido-seated1 {
+    display: flex;
+
+    background-color: rgb(199, 41, 41);
+  }
+  .contenido-seated1 {
+    display: flex;
+    padding-left: 1rem;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .contenido-seated2 {
+    display: flex;
+    padding-left: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .posicion {
+    display: flex;
+    gap: 6rem;
+    font-size: 1rem;
+  }
+  .tablePosition {
+    display: flex;
+  }
+  .tablePositionPax {
+    display: flex;
+  }
+  .fechas {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 1.3rem;
+  }
+  .fechaHora {
+    padding-right: 2rem;
+  }
+  .contenedorMesa {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .footer-seated {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 100%;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .manage {
+    padding: 2.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid red;
+    color: red;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+  }
+  .reservation-table {
+    display: block;
+    height: 55vh;
+    width: 365px;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(247, 247, 247, 1) rgba(247, 247, 247, 1);
+  }
+  .contenido-reservation1 {
+    display: flex;
+    padding-left: 1rem;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .botonPaid {
+    position: absolute;
+    padding-left: 22rem;
+  }
+  .footer-reserv {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 100%;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .reserv {
+    padding: 2.5rem 0rem;
+    border-radius: 8px;
+    border: 1px solid rgba(248, 174, 0, 1);
+    color: rgba(248, 174, 0, 1);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+  }
+
+  .buttonElBueno {
+    border: none;
+  }
+  .contenido-medio-derecho {
+    width: 100%;
+    height: 100%;
+  }
+  .contenedor-derecho {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    width: 100%;
+  }
+  .header-derecho {
+    display: flex;
+    justify-content: space-between;
+  }
+  .first-floor {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 8px solid rgba(155, 155, 155, 1);
+    height: 100%;
+    padding-top: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  .second-floor {
+    border: 1px solid rgba(208, 208, 208, 1);
+
+    height: 100%;
+    padding-top: 1.5rem;
+    width: 100%;
+    text-align: center;
+    color: grey;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .outdoor-floor {
+    border: 1px solid rgba(208, 208, 208, 1);
+    height: 100%;
+    background-color: rgba(247, 247, 247, 1);
+    width: 100%;
+    color: grey;
+    display: flex;
+  }
+  .Outdoor {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    padding-left: 4rem;
+    padding-top: 1.5rem;
+  }
+  .flechaDerecha {
+    position: absolute;
+    padding-left: 10rem;
+    padding-top: 1.5rem;
+  }
+  .botones {
+    display: flex;
+    border: 1px solid rgba(196, 196, 196, 1);
+    padding-left: 0.2rem;
+  }
+  .footer-header {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+  }
+  .botones-footer {
+    display: flex;
+
+    justify-content: flex-end;
+  }
+  .mesas-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    padding-right: 1rem;
+  }
+}
+
+/* Consulta de medios para pantallas pequeñas (1024px - 1199px) */
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .contenido-medio {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .contenedor-izquierdo {
+    background-color: rgba(255, 255, 255, 1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  .media-izquierda {
+    display: grid;
+    grid-template-rows: 0.03fr 1fr;
+    width: 100%;
+    height: 100%;
+  }
+  .header-izquierda {
+    display: flex;
+  }
+  .seated {
+    padding: 1.8rem 3.45rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    height: 90%;
+    margin-bottom: 0rem;
+  }
+  .reservation {
+    padding: 1.8rem 3.45rem;
+    display: flex;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    height: 90%;
+    margin-bottom: 0rem;
+  }
+  .noti-reservation {
+    position: absolute;
+    padding-left: 8rem;
+  }
+  .reservation-noti {
+    width: 1.8rem;
+  }
+  .contenedor-seated {
+    display: grid;
+    grid-template-rows: 0.04fr 1.2fr;
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+  .sort {
+    display: flex;
+    padding-left: 1rem;
+  }
+  .sort-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    padding-top: 1rem;
+  }
+  .sort-img {
+    display: flex;
+    padding-left: 10rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+  .arrow {
+    width: 4.2rem;
+  }
+  .seated-table {
+    display: block;
+    height: 55vh;
+    width: 360px;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+  }
+  .contenido-seated1 {
+    display: flex;
+
+    background-color: rgb(199, 41, 41);
+  }
+  .contenido-seated1 {
+    display: flex;
+    padding-left: 1rem;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .contenido-seated2 {
+    display: flex;
+    padding-left: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .posicion {
+    display: flex;
+    gap: 6rem;
+    font-size: 1rem;
+  }
+  .tablePosition {
+    display: flex;
+  }
+  .tablePositionPax {
+    display: flex;
+  }
+  .fechas {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 1.3rem;
+  }
+  .fechaHora {
+    padding-right: 2rem;
+  }
+  .contenedorMesa {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .footer-seated {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 100%;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .manage {
+    padding: 2.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid red;
+    color: red;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+  }
+  .reservation-table {
+    display: block;
+    height: 55vh;
+    width: 365px;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(247, 247, 247, 1) rgba(247, 247, 247, 1);
+  }
+  .contenido-reservation1 {
+    display: flex;
+    padding-left: 1rem;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .botonPaid {
+    position: absolute;
+    padding-left: 22rem;
+  }
+  .footer-reserv {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 100%;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  .reserv {
+    padding: 2.5rem 0rem;
+    border-radius: 8px;
+    border: 1px solid rgba(248, 174, 0, 1);
+    color: rgba(248, 174, 0, 1);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+  }
+
+  .buttonElBueno {
+    border: none;
+  }
+  .contenido-medio-derecho {
+    width: 100%;
+    height: 100%;
+  }
+  .contenedor-derecho {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    width: 100%;
+  }
+  .header-derecho {
+    display: flex;
+    justify-content: space-between;
+  }
+  .first-floor {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 8px solid rgba(155, 155, 155, 1);
+    height: 100%;
+    padding-top: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  .second-floor {
+    border: 1px solid rgba(208, 208, 208, 1);
+
+    height: 100%;
+    padding-top: 1.5rem;
+    width: 100%;
+    text-align: center;
+    color: grey;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .outdoor-floor {
+    border: 1px solid rgba(208, 208, 208, 1);
+    height: 100%;
+    background-color: rgba(247, 247, 247, 1);
+    width: 100%;
+    color: grey;
+    display: flex;
+  }
+  .Outdoor {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    padding-left: 4rem;
+    padding-top: 1.5rem;
+  }
+  .flechaDerecha {
+    position: absolute;
+    padding-left: 10rem;
+    padding-top: 1.5rem;
+  }
+  .botones {
+    display: flex;
+    border: 1px solid rgba(196, 196, 196, 1);
+    padding-left: 0.2rem;
+  }
+  .footer-header {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+  }
+  .botones-footer {
+    display: flex;
+
+    justify-content: flex-end;
+  }
+  .mesas-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    padding-right: 1rem;
+  }
+}

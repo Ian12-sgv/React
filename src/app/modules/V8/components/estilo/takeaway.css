@@ -1,0 +1,6840 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .navbar-takeaway {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 3rem;
+    padding-right: 1rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .noti-takeaway {
+    position: absolute;
+    padding-left: 39rem;
+    padding-top: 0.5rem;
+  }
+  .headerFood {
+    background-color: rgba(252, 63, 63, 1);
+    color: white;
+    width: 100%;
+    height: 9%;
+    text-align: center;
+    display: flex;
+  }
+  .takeaway-page {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .takeaway {
+    display: grid;
+    grid-template-rows: 0fr 6fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-Orden {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(249, 249, 249, 1);
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-Orden-content {
+    background-color: rgba(247, 247, 247, 1);
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-Orden-pay {
+    background-color: rgba(249, 249, 249, 1);
+    height: 100%;
+    width: 100%;
+  }
+
+  .takeaway-Orden-pay-view {
+    background-color: rgba(249, 249, 249, 1);
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+  }
+
+  .barra {
+    background-color: burlywood;
+  }
+
+  .search {
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 1rem;
+  }
+
+  .search-page {
+    display: grid;
+    grid-template-columns: 0.15fr 1fr 0.8fr;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .lenguaje {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 3vh;
+  }
+
+  .esp {
+    background-color: rgba(245, 245, 245, 1);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+  }
+
+  .ing {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding-left: 0.8rem;
+    padding-top: 0.2rem;
+    color: rgba(196, 196, 196, 1);
+  }
+
+  .search-content {
+    text-align: center;
+    padding-left: 0rem;
+  }
+
+  .placeholder {
+    color: rgba(236, 236, 236, 1);
+    border-radius: 5px;
+    border: 1px solid rgba(210, 210, 210, 1);
+    background-color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+  }
+
+  .search-lupa {
+    display: flex;
+    padding-left: 4.5rem;
+  }
+  .search-input {
+    margin-left: 5rem;
+    width: 100%;
+    height: 4vh;
+    position: relative;
+    border: 1px solid rgba(210, 210, 210, 1);
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 1);
+  }
+
+  .serch-icon {
+    position: absolute;
+    padding-left: 28rem;
+    padding-top: 0.5rem;
+  }
+
+  .orden {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    padding-left: 2rem;
+  }
+
+  .inicio {
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    border: 1px solid red;
+    color: red;
+  }
+  .mesa {
+    background-color: red;
+    padding: 1rem 0rem;
+    border-radius: 8px;
+    width: 80%;
+  }
+  .personas {
+    background-color: rgba(247, 247, 247, 1);
+    color: rgba(155, 155, 155, 1);
+    border: 1px solid rgba(155, 155, 155, 1);
+    border-radius: 8px;
+    padding: 1rem 0rem;
+    width: 50%;
+  }
+  .conetenido {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .conetenido-page {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2fr;
+    height: 100%;
+    width: 100%;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .contendio-izquierda-ctg {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem 1rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ctgIzquierda__titulo {
+    font-size: 11px;
+  }
+
+  .ctgDerecho__titulo {
+    font-size: 11px;
+  }
+  .pizzas {
+    grid-area: 1/1/2/2;
+    background-color: green;
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .sushi {
+    grid-area: 1/2/2/3;
+    background-color: red;
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+
+  .Ensalada {
+    grid-area: 2/1/3/2;
+    background-color: rgb(228, 170, 95);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Hamburguesa {
+    grid-area: 2/2/3/3;
+    background-color: black;
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Carne {
+    grid-area: 3/1/4/2;
+    background-color: rgb(29, 85, 131);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Torta {
+    grid-area: 3/2/4/3;
+    background-color: rgb(64, 141, 64);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Mariscos {
+    grid-area: 4/1/5/2;
+    background-color: rgb(228, 170, 95);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Hot_Dog {
+    grid-area: 4/2/5/3;
+    background-color: red;
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Pollo_asado {
+    grid-area: 5/1/6/2;
+    background-color: red;
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Pasta {
+    grid-area: 5/2/6/3;
+    background-color: rgb(29, 85, 131);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Pastelitos {
+    grid-area: 6/1/7/2;
+    background-color: rgb(64, 141, 64);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+
+  .Entrada {
+    grid-area: 6/2/7/3;
+    background-color: rgb(228, 170, 95);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+
+  .contendio-medio {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .hamburguesas-container {
+    display: block;
+    height: 79vh;
+    width: 35vw;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .hamburguesa {
+    background-color: rgba(255, 255, 255, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 10px;
+  }
+
+  .hamburguesa-izq {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 80%;
+    height: 95%;
+  }
+
+  .comida1 {
+    position: relative;
+    width: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .hamburguesa-info {
+    text-align: center;
+  }
+
+  .hamburguesa-med {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 80%;
+    height: 95%;
+  }
+
+  .hamburguesa-der {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 80%;
+    height: 95%;
+  }
+
+  .orden-content {
+    display: grid;
+    grid-template-rows: 0fr 0fr 0fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .orden-content-pay {
+    display: grid;
+    grid-template-rows: 0fr 0.5fr 0.2fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .orden-content-orden {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .orden-top {
+    height: 100%;
+    width: 100%;
+  }
+
+  .orden-top-content {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    height: 100%;
+    width: 100%;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    font-size: 10px;
+  }
+
+  .header-orden {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 1rem;
+  }
+
+  .orden-top-eat {
+    display: block;
+    height: 27.8vh;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+    background-color: rgba(247, 247, 247, 1);
+  }
+
+  .eat-order {
+    background-color: rgba(247, 247, 247, 1);
+    padding-left: 1rem;
+  }
+  .eat-order-2 {
+    background-color: rgba(247, 247, 247, 1);
+    padding-left: 1rem;
+  }
+  .cant {
+    padding-left: 3rem;
+  }
+  .orden-bottom {
+    background-color: rgba(247, 247, 247, 1);
+    display: grid;
+
+    height: 100%;
+    width: 100%;
+  }
+
+  .eat {
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+  }
+
+  .number {
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top: 1.5rem;
+  }
+
+  .content-eat {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .cant-eat {
+    padding: 0.4rem 1.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin-left: -2rem;
+    font-weight: bolder;
+  }
+
+  .total {
+    padding-right: 2rem;
+  }
+  .delet {
+    position: absolute;
+  }
+
+  .orden-bottom-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+  }
+
+  .orden-bottom-top {
+    padding-right: 1rem;
+    border-right: 1px solid rgb(209, 209, 209);
+    justify-content: center;
+    align-content: center;
+    display: block;
+    font-size: 0.9rem;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .orden-bottom-title {
+    border-radius: 8px;
+    border: 1px solid rgb(209, 209, 209);
+    margin: 2rem 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .orden-bottom-client {
+    border-radius: 8px;
+    border: 1px solid rgb(209, 209, 209);
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .orden-bottom-info {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1rem;
+    padding-top: 0rem;
+    margin-bottom: 0rem;
+    height: 100%;
+  }
+  .orden-bottom-info-pedidos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 15px;
+    align-content: center;
+  }
+  .total-PedidosOrden-total {
+    font-size: 15px;
+  }
+  .orden-bottom-top-info {
+    text-align: justify;
+    line-height: 2.4rem;
+    padding-top: 5rem;
+  }
+
+  .orden-bottom-bottom-info {
+    text-align: justify;
+    line-height: 2.4rem;
+    padding-top: 5rem;
+  }
+  .orden-bottom-buttons {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-right: 0.5rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .orden-bottom-button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+  }
+
+  .orden-imprimir {
+    background-color: white;
+    color: red;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid red;
+    width: 65%;
+  }
+
+  .orden-pagar {
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    width: 38%;
+  }
+
+  .imagen {
+    height: 100%;
+    width: 50%;
+    padding-top: 2rem;
+    padding-left: 5rem;
+  }
+
+  .LLevar {
+    height: 100%;
+    width: 100%;
+    padding-top: 1.5rem;
+    font-size: 20px;
+  }
+
+  .Mesas {
+    height: 100%;
+    width: 100%;
+    padding-top: 1.5rem;
+    font-size: 20px;
+  }
+  .Delivery-takeaway {
+    height: 90%;
+    width: 100%;
+    padding-top: 1.5rem;
+    margin-top: 0.3rem;
+    font-size: 20px;
+    border-right: 1px solid white;
+  }
+
+  .noti-takeaway-img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .Pickup-takeaway {
+    height: 90%;
+    width: 100%;
+    padding-top: 1.5rem;
+    font-size: 20px;
+    margin-top: 0.3rem;
+    border-right: 1px solid white;
+  }
+  .takeaway-OrdenPedidos {
+    display: grid;
+    grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-FooterPay {
+    width: 100%;
+    height: 100%;
+
+    padding: 1rem;
+  }
+
+  .paymente {
+    display: grid;
+    grid-template-rows: 0.96fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+  .top {
+    width: 100%;
+    height: 100%;
+  }
+  .methoPay {
+    width: 100%;
+    height: 100%;
+  }
+  .orden-header {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+  }
+  .orden-top-eat-content {
+    display: block;
+    height: 27vh;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .eat-order-content {
+    background-color: rgba(247, 247, 247, 1);
+    padding-left: 1rem;
+  }
+
+  .eat-order-content-2 {
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 1rem;
+  }
+  .takeaway-ContenidoOrder {
+    background-color: rgba(247, 247, 247, 1);
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    padding: 0rem 1rem;
+  }
+  .takeaway-ContenidoOrder-Orden {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .button-orden {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    width: 100%;
+    height: 100%;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    border-right: 1px solid rgb(209, 209, 209);
+    font-size: 1.1rem;
+    align-items: center;
+  }
+  .bottom-title-orden {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 0rem;
+  }
+
+  .bottom-data-orden {
+    display: block;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 0rem;
+  }
+  .bottom-client-orden {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .point {
+    font-size: 36px;
+    color: red;
+    font-weight: bolder;
+  }
+
+  .total-OrdenView {
+    font-size: 26px;
+    color: red;
+    font-weight: bolder;
+  }
+  .total-OrdenView-total {
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+
+  .total-PedidosOrden-total {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+
+  .total-PedidosOrden {
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+  }
+
+  .bottom-top-info-orden {
+    text-align: justify;
+    line-height: 3.4rem;
+    padding: 1rem;
+  }
+
+  .total-OrdennPedidosMetodo {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+
+  .total-OrdenPedidosMetodo {
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+  }
+  .orden-cabecera {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 0.5rem;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    align-items: center;
+  }
+
+  .home {
+    padding: 1rem 3rem;
+    background-color: rgba(247, 247, 247, 1);
+    color: red;
+    border: 1px solid rgba(252, 63, 63, 1);
+    border-radius: 8px;
+    font-weight: bolder;
+  }
+
+  .table-mesa-void {
+    background-color: rgba(127, 127, 127, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem 4rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .table-mesa {
+    background-color: rgba(252, 63, 63, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem 3rem;
+    font-weight: bolder;
+  }
+
+  .table-mesa-view {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem 5rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .pax-mesa {
+    background-color: rgba(236, 236, 236, 1);
+    color: rgba(155, 155, 155, 1);
+    border-radius: 8px;
+    padding: 1rem 4rem;
+    font-weight: bolder;
+  }
+  .takeaway-SearchPrden {
+    height: 100%;
+    width: 100%;
+  }
+  .takeaway-TopOrder {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(42, 126, 67);
+  }
+  .takeaway-ContenedorOrder {
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid rgb(209, 209, 209);
+
+    padding: 1rem;
+  }
+  .footerPay {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+    gap: 1rem;
+    padding-top: 4rem;
+  }
+
+  .total-pay {
+    font-size: 26px;
+    color: red;
+    font-weight: bolder;
+  }
+
+  .anular {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+
+  .anular-view {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .imprimir {
+    background-color: rgba(255, 255, 255, 1);
+    color: red;
+    border: 1px solid rgba(252, 63, 63, 1);
+    border-radius: 5px;
+    padding: 1.4rem 1rem;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .pagar {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5rem 5rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .pagar-view {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5rem 8rem;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .bottom-buttons-orden {
+    display: flex;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .methoPay-Footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .back {
+    color: red;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(196, 196, 196, 1);
+    border-radius: 5px;
+    padding: 1.4rem 1.3rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+
+  .next-pay {
+    color: white;
+    background-color: rgba(224, 30, 38, 1);
+    border-radius: 5px;
+    padding: 1.4rem 10rem;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .confirm-pay {
+    color: white;
+    background-color: rgba(224, 30, 38, 1);
+    border-radius: 5px;
+    padding: 1.4rem 7rem;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .top-pay {
+    padding: 5rem 0rem;
+    width: 100%;
+  }
+  .top-pay-title {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    padding-left: 2rem;
+    width: 100%;
+  }
+  .top-pay-info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+    width: 100%;
+  }
+  .top-pay-info-title {
+    background-color: rgba(249, 249, 249, 1);
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 2rem 3rem;
+    color: red;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .staff {
+    background-color: rgba(249, 249, 249, 1);
+    margin-top: 4rem;
+    margin-right: 0rem;
+    margin-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 5px;
+    border: 1px solid red;
+    color: red;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    width: 48%;
+  }
+  .orden-content-pedidos {
+    display: grid;
+    grid-template-rows: 0fr 1fr 0fr;
+  }
+  .paymente-pay {
+    display: grid;
+    grid-template-rows: 0.958fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .paymente-pay-container {
+    display: grid;
+    grid-template-rows: 0.955fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+  .Metodo {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .title-metodo {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .Metodo-content {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .CardMetodo {
+    background-color: rgba(196, 196, 196, 1);
+  }
+  .Cash {
+    background-color: rgba(196, 196, 196, 1);
+    width: 100%;
+    height: 100%;
+  }
+  #cssportal-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 5rem;
+    padding: 4rem 1rem;
+  }
+  #div1 {
+    grid-area: 1/1/2/2;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div2 {
+    grid-area: 1/2/2/3;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div3 {
+    grid-area: 1/3/2/4;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div4 {
+    grid-area: 2/1/3/2;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div5 {
+    grid-area: 2/2/3/3;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div6 {
+    grid-area: 2/3/3/4;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div7 {
+    grid-area: 3/1/4/2;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div8 {
+    grid-area: 3 / 2 / 4 / 4;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .check {
+    position: absolute;
+    padding-left: 20rem;
+    padding-top: 3.5rem;
+  }
+  .metodoPay-Footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .reserv-payment-btn {
+    color: white;
+  }
+  .modal-header-pay {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 2rem;
+    align-self: center;
+  }
+  .modal-title-pay-check {
+    padding-left: 6rem;
+  }
+  .modal-title-pay {
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    border-radius: 10rem;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .paymnent-successful {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: rgba(141, 141, 141, 1);
+  }
+  .receipt-printed {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 46, 46, 1);
+    padding: 1rem 5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+  }
+  .ViewOrdenPrevius {
+    text-align: center;
+    padding: 1rem 0rem;
+    width: 90%;
+    display: block;
+  }
+  .ViewOrdenPrevius-viwe {
+    background-color: rgba(254, 254, 254, 1);
+    border-radius: 5px;
+    color: red;
+    border: 1px solid red;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .ViewOrdenPrevius-order {
+    background-color: rgba(252, 63, 63, 1);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 5rem;
+  }
+  .takeaway-Orden-number {
+    text-align: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .takeaway-Orden-number-info {
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .takeaway-Orden-number-info-data {
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 2rem 0rem;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .takeaway-Orden-number-completed {
+    background-color: rgba(252, 63, 63, 1);
+    padding: 2rem 1rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    margin-top: 4rem;
+    border-radius: 5px;
+  }
+  .CrearOrden {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem 2rem;
+  }
+  .CrearOrden-text {
+    background-color: rgba(255, 255, 255, 1);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    padding: 10rem 2rem;
+  }
+  .Agregar {
+    display: flex;
+    border: 1px solid red;
+    border-radius: 8px;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    padding: 3rem 3rem;
+  }
+  .agregado {
+    width: 88%;
+    height: 50%;
+    margin-top: 10rem;
+    padding-right: 1rem;
+    position: absolute;
+  }
+  .icon {
+    position: absolute;
+    padding-left: 10rem;
+  }
+  .metodoCash {
+    width: 100%;
+    height: 100%;
+  }
+  .titleCash {
+    text-align: left;
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .display-input {
+    padding-top: 2rem;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    position: absolute;
+    overflow: hidden;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .keypad {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    width: 100%;
+    height: 95%;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+  .keypad-grid {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 99.5%;
+    height: 56%;
+    margin-top: 19.5rem;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35.16px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .uno {
+    grid-area: 1/1/2/2;
+    padding: 1rem 0rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .dos {
+    grid-area: 1/2/2/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .tres {
+    grid-area: 1/3/2/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .cuatro {
+    grid-area: 2/1/3/2;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .cinco {
+    grid-area: 2/2/3/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .seis {
+    grid-area: 2/3/3/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .siete {
+    grid-area: 3/1/4/2;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .ocho {
+    grid-area: 3/2/4/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .nueve {
+    grid-area: 3/3/4/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .clear {
+    grid-area: 4/1/5/2;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .cero {
+    grid-area: 4/2/5/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .punto {
+    grid-area: 4/3/5/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+    font-size: 50px;
+  }
+  .backNumbre {
+    grid-area: 5/1/6/2;
+    padding: 1rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+    color: red;
+  }
+  .enter {
+    grid-area: 5 / 2 / 6 / 4;
+    padding: 1rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: red;
+    color: white;
+  }
+  .ConfirmPrinft {
+    display: grid;
+    grid-template-rows: 1fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .PrinftContent {
+    display: block;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+  }
+
+  .PrinftContentData {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: 2rem;
+  }
+
+  .PrinftContentData-change {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(252, 63, 63, 1);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    gap: 10rem;
+    width: 90%;
+    padding: 1rem;
+    margin-left: 0rem;
+    margin-top: 3rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .PrinftFooter {
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .PrinftFooterText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: red;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 1.5rem 0rem;
+  }
+
+  .PrinftFooterBack {
+    color: red;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 2rem 3rem;
+    width: 30%;
+    height: 100%;
+  }
+
+  .PrinftFooterConfirm {
+    background-color: rgba(255, 46, 46, 1);
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 1.1rem 4rem;
+    width: 100%;
+  }
+  .amount {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .amount-value {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .change {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .change-value {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    color: rgba(252, 63, 63, 1);
+  }
+  .modal-title-pay-anular {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-top: 1rem;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    width: 25%;
+  }
+
+  .close-modal {
+    position: fixed;
+    padding-left: 35rem;
+    padding-top: 1.5rem;
+  }
+
+  .modal-title-anular {
+    margin-left: 1.5rem;
+    width: 100px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .confirm-text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 46, 46, 1);
+    padding: 1rem 5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+  }
+  .anular-view-void {
+    background-color: rgba(127, 127, 127, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .imprimir-void {
+    background-color: rgba(255, 255, 255, 1);
+    color: red;
+    border: 1px solid rgba(252, 63, 63, 1);
+    border-radius: 5px;
+    padding: 1.4rem 4rem;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .pagar-view-void {
+    background-color: rgba(127, 127, 127, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5rem 5rem;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1365px) {
+  .navbar-takeaway {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 3rem;
+    padding-right: 1rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .noti-takeaway {
+    position: absolute;
+    padding-left: 48rem;
+    padding-top: 0.5rem;
+  }
+  .headerFood {
+    background-color: rgba(252, 63, 63, 1);
+    color: white;
+    width: 100%;
+    height: 9%;
+    text-align: center;
+    display: flex;
+  }
+  .takeaway-page {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .takeaway {
+    display: grid;
+    grid-template-rows: 0fr 6fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-Orden {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(249, 249, 249, 1);
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-Orden-content {
+    background-color: rgba(247, 247, 247, 1);
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-Orden-pay {
+    background-color: rgba(249, 249, 249, 1);
+    height: 100%;
+    width: 100%;
+  }
+
+  .takeaway-Orden-pay-view {
+    background-color: rgba(249, 249, 249, 1);
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+  }
+
+  .barra {
+    background-color: burlywood;
+  }
+
+  .search {
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 1rem;
+  }
+
+  .search-page {
+    display: grid;
+    grid-template-columns: 0.15fr 1fr 0.95fr;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .lenguaje {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 3vh;
+  }
+
+  .esp {
+    background-color: rgba(245, 245, 245, 1);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-top: 0.1rem;
+  }
+
+  .ing {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding-left: 0.8rem;
+    padding-top: 0.1rem;
+    color: rgba(196, 196, 196, 1);
+  }
+
+  .search-content {
+    text-align: center;
+    padding-left: 0rem;
+  }
+
+  .placeholder {
+    color: rgba(236, 236, 236, 1);
+    border-radius: 5px;
+    border: 1px solid rgba(210, 210, 210, 1);
+    background-color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+  }
+
+  .search-lupa {
+    display: flex;
+    padding-left: 3rem;
+  }
+  .search-input {
+    margin-left: 10rem;
+    width: 100%;
+    height: 4vh;
+    position: relative;
+    border: 1px solid rgba(210, 210, 210, 1);
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 1);
+  }
+
+  .serch-icon {
+    position: absolute;
+    padding-left: 32rem;
+    padding-top: 0.5rem;
+  }
+
+  .orden {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    padding-left: 5rem;
+  }
+
+  .inicio {
+    background-color: white;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    border: 1px solid red;
+    color: red;
+  }
+  .mesa {
+    background-color: red;
+    padding: 1rem 0rem;
+    border-radius: 8px;
+    width: 100%;
+  }
+  .personas {
+    background-color: rgba(247, 247, 247, 1);
+    color: rgba(155, 155, 155, 1);
+    border: 1px solid rgba(155, 155, 155, 1);
+    border-radius: 8px;
+    padding: 1rem 0rem;
+    width: 50%;
+  }
+  .conetenido {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .conetenido-page {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2fr;
+    height: 100%;
+    width: 100%;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .contendio-izquierda {
+    margin: 0;
+    padding: 0;
+  }
+
+  .contendio-izquierda-ctg {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem 1rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ctgIzquierda__titulo {
+    font-size: 14px;
+  }
+
+  .ctgDerecho__titulo {
+    font-size: 14px;
+  }
+  .pizzas {
+    grid-area: 1/1/2/2;
+    background-color: green;
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .sushi {
+    grid-area: 1/2/2/3;
+    background-color: red;
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+
+  .Ensalada {
+    grid-area: 2/1/3/2;
+    background-color: rgb(228, 170, 95);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Hamburguesa {
+    grid-area: 2/2/3/3;
+    background-color: black;
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Carne {
+    grid-area: 3/1/4/2;
+    background-color: rgb(29, 85, 131);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Torta {
+    grid-area: 3/2/4/3;
+    background-color: rgb(64, 141, 64);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Mariscos {
+    grid-area: 4/1/5/2;
+    background-color: rgb(228, 170, 95);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Hot_Dog {
+    grid-area: 4/2/5/3;
+    background-color: red;
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Pollo_asado {
+    grid-area: 5/1/6/2;
+    background-color: red;
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Pasta {
+    grid-area: 5/2/6/3;
+    background-color: rgb(29, 85, 131);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .Pastelitos {
+    grid-area: 6/1/7/2;
+    background-color: rgb(64, 141, 64);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+
+  .Entrada {
+    grid-area: 6/2/7/3;
+    background-color: rgb(228, 170, 95);
+    border-radius: 8px;
+    padding-top: 2.5rem;
+  }
+  .orden-bottom-info-pedidos {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    align-content: center;
+  }
+
+  .contendio-medio {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .hamburguesas-container {
+    display: block;
+    height: 79vh;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .hamburguesa {
+    background-color: rgba(255, 255, 255, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+
+  .hamburguesa-izq {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 80%;
+    height: 95%;
+  }
+
+  .comida1 {
+    position: relative;
+    width: 4rem;
+    padding-bottom: 1rem;
+  }
+
+  .hamburguesa-info {
+    text-align: center;
+  }
+
+  .hamburguesa-med {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 80%;
+    height: 95%;
+  }
+
+  .hamburguesa-der {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 80%;
+    height: 95%;
+  }
+
+  .orden-content {
+    display: grid;
+    grid-template-rows: 0fr 0fr 0fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .orden-content-pay {
+    display: grid;
+    grid-template-rows: 0fr 0.5fr 0.2fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .orden-content-orden {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .orden-top {
+    height: 100%;
+    width: 100%;
+  }
+
+  .orden-top-content {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    height: 100%;
+    width: 100%;
+    padding: 1rem 0rem;
+  }
+
+  .header-orden {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 1rem;
+  }
+
+  .orden-top-eat {
+    display: block;
+    height: 28vh;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+    background-color: rgba(247, 247, 247, 1);
+  }
+
+  .eat-order {
+    background-color: rgba(247, 247, 247, 1);
+    margin-top: 0rem;
+    padding: 0rem 0rem;
+  }
+  .eat-order-2 {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0rem 0.01rem;
+  }
+  .cant {
+    padding-left: 3rem;
+  }
+  .orden-bottom {
+    background-color: rgba(247, 247, 247, 1);
+    display: grid;
+
+    height: 100%;
+    width: 100%;
+  }
+
+  .eat {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    padding-right: 1rem;
+  }
+
+  .number {
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top: 1.5rem;
+  }
+
+  .content-eat {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .cant-eat {
+    padding: 0.4rem 1.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin-left: -2rem;
+    font-weight: bolder;
+  }
+
+  .total {
+    padding-right: 2rem;
+  }
+  .delet {
+    position: absolute;
+  }
+
+  .orden-bottom-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+  }
+
+  .orden-bottom-top {
+    padding-right: 1rem;
+    border-right: 1px solid rgb(209, 209, 209);
+    justify-content: center;
+    align-content: center;
+    display: block;
+    font-size: 1.2rem;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .orden-bottom-title {
+    border-radius: 8px;
+    border: 1px solid rgb(209, 209, 209);
+    margin: 2rem 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .orden-bottom-client {
+    border-radius: 8px;
+    border: 1px solid rgb(209, 209, 209);
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .orden-bottom-info {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    font-size: 1.1rem;
+    padding-top: 0rem;
+    margin-bottom: 0rem;
+    height: 100%;
+  }
+
+  .orden-bottom-top-info {
+    text-align: justify;
+    line-height: 2.4rem;
+    padding-top: 2rem;
+  }
+
+  .orden-bottom-bottom-info {
+    text-align: justify;
+    line-height: 2.4rem;
+    padding-top: 2rem;
+  }
+  .orden-bottom-buttons {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding-right: 0.5rem;
+
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    gap: 4rem;
+    justify-content: space-between;
+  }
+
+  .orden-bottom-button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+  }
+
+  .orden-imprimir {
+    background-color: white;
+    color: red;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid red;
+    width: 65%;
+  }
+
+  .orden-pagar {
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    width: 38%;
+  }
+
+  .imagen {
+    height: 100%;
+    width: 50%;
+    padding-top: 2rem;
+    padding-left: 5rem;
+  }
+
+  .LLevar {
+    height: 100%;
+    width: 100%;
+    padding-top: 1.5rem;
+    font-size: 20px;
+  }
+
+  .Mesas {
+    height: 100%;
+    width: 100%;
+    padding-top: 1.5rem;
+    font-size: 20px;
+  }
+  .Delivery-takeaway {
+    height: 90%;
+    width: 100%;
+    padding-top: 1.5rem;
+    margin-top: 0.3rem;
+    font-size: 20px;
+    border-right: 1px solid white;
+  }
+
+  .noti-takeaway-img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .Pickup-takeaway {
+    height: 90%;
+    width: 100%;
+    padding-top: 1.5rem;
+    font-size: 20px;
+    margin-top: 0.3rem;
+    border-right: 1px solid white;
+  }
+  .takeaway-OrdenPedidos {
+    display: grid;
+    grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-FooterPay {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    padding: 1rem;
+  }
+
+  .paymente {
+    display: grid;
+    grid-template-rows: 0.96fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+  .top {
+    width: 100%;
+    height: 100%;
+  }
+  .methoPay {
+    width: 100%;
+    height: 100%;
+  }
+  .orden-header {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+  }
+  .orden-top-eat-content {
+    display: block;
+    height: 29vh;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .eat-order-content {
+    background-color: rgba(247, 247, 247, 1);
+    margin-top: 0rem;
+  }
+
+  .eat-order-content-2 {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0rem 0.01rem;
+  }
+  .takeaway-ContenidoOrder {
+    background-color: rgba(247, 247, 247, 1);
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    padding: 0rem 1rem;
+  }
+  .takeaway-ContenidoOrder-Orden {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .button-orden {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    width: 100%;
+    height: 100%;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    border-right: 1px solid rgb(209, 209, 209);
+    font-size: 1.1rem;
+    align-items: center;
+  }
+  .bottom-title-orden {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 0rem;
+  }
+
+  .bottom-data-orden {
+    display: block;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 0rem;
+  }
+  .bottom-client-orden {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .point {
+    font-size: 36px;
+    color: red;
+    font-weight: bolder;
+  }
+
+  .total-OrdenView {
+    font-size: 26px;
+    color: red;
+    font-weight: bolder;
+  }
+  .total-OrdenView-total {
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+
+  .total-PedidosOrden-total {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+
+  .total-PedidosOrden {
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+  }
+
+  .bottom-top-info-orden {
+    text-align: justify;
+    line-height: 3.4rem;
+    padding: 1rem;
+  }
+
+  .total-OrdennPedidosMetodo {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+
+  .total-OrdenPedidosMetodo {
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+  }
+  .orden-cabecera {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 0.5rem;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    align-items: center;
+  }
+
+  .home {
+    padding: 1rem 3rem;
+    background-color: rgba(247, 247, 247, 1);
+    color: red;
+    border: 1px solid rgba(252, 63, 63, 1);
+    border-radius: 8px;
+    font-weight: bolder;
+  }
+
+  .table-mesa-void {
+    background-color: rgba(127, 127, 127, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem 5rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .table-mesa {
+    background-color: rgba(252, 63, 63, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem 5rem;
+    font-weight: bolder;
+  }
+
+  .table-mesa-view {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem 7rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .pax-mesa {
+    background-color: rgba(236, 236, 236, 1);
+    color: rgba(155, 155, 155, 1);
+    border-radius: 8px;
+    padding: 1rem 5rem;
+    font-weight: bolder;
+  }
+  .takeaway-SearchPrden {
+    height: 100%;
+    width: 100%;
+  }
+  .takeaway-TopOrder {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(42, 126, 67);
+  }
+  .takeaway-ContenedorOrder {
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid rgb(209, 209, 209);
+
+    padding: 1rem;
+  }
+  .footerPay {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+    gap: 1rem;
+    padding-top: 4rem;
+  }
+
+  .total-pay {
+    font-size: 26px;
+    color: red;
+    font-weight: bolder;
+  }
+
+  .anular {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+
+  .anular-view {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .imprimir {
+    background-color: rgba(255, 255, 255, 1);
+    color: red;
+    border: 1px solid rgba(252, 63, 63, 1);
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .pagar {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5rem 5rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .pagar-view {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5rem 8rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .bottom-buttons-orden {
+    display: flex;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .methoPay-Footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  .back {
+    color: red;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(196, 196, 196, 1);
+    border-radius: 5px;
+    padding: 1.4rem 4rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .next-pay {
+    color: white;
+    background-color: rgba(224, 30, 38, 1);
+    border-radius: 5px;
+    padding: 1.4rem 12rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .confirm-pay {
+    color: white;
+    background-color: rgba(224, 30, 38, 1);
+    border-radius: 5px;
+    padding: 1.4rem 7rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .top-pay {
+    padding: 5rem 0rem;
+  }
+  .top-pay-title {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    padding-left: 2rem;
+  }
+  .top-pay-info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+  }
+  .top-pay-info-title {
+    background-color: rgba(249, 249, 249, 1);
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 2rem 3rem;
+    color: red;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .staff {
+    background-color: rgba(249, 249, 249, 1);
+    margin-top: 4rem;
+    margin-right: 30rem;
+    margin-left: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 5px;
+    border: 1px solid red;
+    color: red;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    width: 40%;
+  }
+  .orden-content-pedidos {
+    display: grid;
+    grid-template-rows: 0fr 1fr 0fr;
+  }
+  .paymente-pay {
+    display: grid;
+    grid-template-rows: 0.958fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .paymente-pay-container {
+    display: grid;
+    grid-template-rows: 0.955fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+  .Metodo {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .title-metodo {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .Metodo-content {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .CardMetodo {
+    background-color: rgba(196, 196, 196, 1);
+  }
+  .Cash {
+    background-color: rgba(196, 196, 196, 1);
+    width: 100%;
+    height: 100%;
+  }
+  #cssportal-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  #div1 {
+    grid-area: 1/1/2/2;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div2 {
+    grid-area: 1/2/2/3;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div3 {
+    grid-area: 1/3/2/4;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div4 {
+    grid-area: 2/1/3/2;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div5 {
+    grid-area: 2/2/3/3;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div6 {
+    grid-area: 2/3/3/4;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div7 {
+    grid-area: 3/1/4/2;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div8 {
+    grid-area: 3 / 2 / 4 / 4;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .check {
+    position: absolute;
+    padding-left: 24rem;
+    padding-top: 3.5rem;
+  }
+  .metodoPay-Footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .reserv-payment-btn {
+    color: white;
+  }
+  .modal-header-pay {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 2rem;
+    align-self: center;
+  }
+  .modal-title-pay-check {
+    padding-left: 6rem;
+  }
+  .modal-title-pay {
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    border-radius: 10rem;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .paymnent-successful {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: rgba(141, 141, 141, 1);
+  }
+  .receipt-printed {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 46, 46, 1);
+    padding: 1rem 5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+  }
+  .ViewOrdenPrevius {
+    text-align: center;
+    padding: 1rem 3rem;
+    display: block;
+  }
+  .ViewOrdenPrevius-viwe {
+    background-color: rgba(254, 254, 254, 1);
+    border-radius: 5px;
+    color: red;
+    border: 1px solid red;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 2rem 7rem;
+  }
+  .ViewOrdenPrevius-order {
+    background-color: rgba(252, 63, 63, 1);
+    border-radius: 5px;
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 2rem 10rem;
+    margin-top: 5rem;
+  }
+  .takeaway-Orden-number {
+    text-align: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .takeaway-Orden-number-info {
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .takeaway-Orden-number-info-data {
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .takeaway-Orden-number-completed {
+    background-color: rgba(127, 127, 127, 1);
+    padding: 2rem 1rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    margin-top: 4rem;
+    border-radius: 5px;
+  }
+  .CrearOrden {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem 2rem;
+  }
+  .CrearOrden-text {
+    background-color: rgba(255, 255, 255, 1);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    padding: 10rem 2rem;
+  }
+  .Agregar {
+    display: flex;
+    border: 1px solid red;
+    border-radius: 8px;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    padding: 3rem 3rem;
+  }
+  .agregado {
+    width: 88%;
+    height: 50%;
+    margin-top: 10rem;
+    padding-right: 1rem;
+    position: absolute;
+  }
+  .icon {
+    position: absolute;
+    padding-left: 10rem;
+  }
+  .metodoCash {
+    width: 100%;
+    height: 100%;
+  }
+  .titleCash {
+    text-align: left;
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .display-input {
+    padding-top: 2rem;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    position: absolute;
+    overflow: hidden;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .keypad {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    width: 100%;
+    height: 95%;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+  .keypad-grid {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 99.5%;
+    height: 56%;
+    margin-top: 22rem;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35.16px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .uno {
+    grid-area: 1/1/2/2;
+    padding: 1rem 0rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .dos {
+    grid-area: 1/2/2/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .tres {
+    grid-area: 1/3/2/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .cuatro {
+    grid-area: 2/1/3/2;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .cinco {
+    grid-area: 2/2/3/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .seis {
+    grid-area: 2/3/3/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .siete {
+    grid-area: 3/1/4/2;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .ocho {
+    grid-area: 3/2/4/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .nueve {
+    grid-area: 3/3/4/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .clear {
+    grid-area: 4/1/5/2;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .cero {
+    grid-area: 4/2/5/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .punto {
+    grid-area: 4/3/5/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+    font-size: 50px;
+  }
+  .backNumbre {
+    grid-area: 5/1/6/2;
+    padding: 1rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+    color: red;
+  }
+  .enter {
+    grid-area: 5 / 2 / 6 / 4;
+    padding: 1rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: red;
+    color: white;
+  }
+  .ConfirmPrinft {
+    display: grid;
+    grid-template-rows: 1fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .PrinftContent {
+    display: block;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+  }
+
+  .PrinftContentData {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-left: 5rem;
+    gap: 5rem;
+  }
+
+  .PrinftContentData-change {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(252, 63, 63, 1);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    gap: 12rem;
+    width: 80%;
+    padding: 1rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .PrinftFooter {
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .PrinftFooterText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: red;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 0.5rem 0rem;
+  }
+
+  .PrinftFooterBack {
+    color: red;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 3rem 3rem;
+    width: 30%;
+    height: 100%;
+  }
+
+  .PrinftFooterConfirm {
+    background-color: rgba(255, 46, 46, 1);
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 1.5rem 8rem;
+    width: 100%;
+  }
+  .amount {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .amount-value {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .change {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .change-value {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    color: rgba(252, 63, 63, 1);
+  }
+  .modal-title-pay-anular {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-top: 1rem;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    width: 25%;
+  }
+
+  .close-modal {
+    position: fixed;
+    padding-left: 35rem;
+    padding-top: 1.5rem;
+  }
+
+  .modal-title-anular {
+    margin-left: 1.5rem;
+    width: 100px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .confirm-text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 46, 46, 1);
+    padding: 1rem 5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+  }
+  .anular-view-void {
+    background-color: rgba(127, 127, 127, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .imprimir-void {
+    background-color: rgba(255, 255, 255, 1);
+    color: red;
+    border: 1px solid rgba(252, 63, 63, 1);
+    border-radius: 5px;
+    padding: 1.4rem 6rem;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .pagar-view-void {
+    background-color: rgba(127, 127, 127, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5rem 6.5rem;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1839px) {
+  .navbar-takeaway {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 3rem;
+    padding-right: 1rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .noti-takeaway {
+    position: absolute;
+    padding-left: 57rem;
+    padding-top: 0.5rem;
+  }
+  .headerFood {
+    background-color: rgba(252, 63, 63, 1);
+    color: white;
+    width: 100%;
+    height: 9%;
+    text-align: center;
+    display: flex;
+  }
+  .takeaway-page {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .takeaway {
+    display: grid;
+    grid-template-rows: 0fr 6fr;
+    background-color: aqua;
+  }
+
+  .takeaway-Orden {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(249, 249, 249, 1);
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-Orden-content {
+    background-color: rgba(247, 247, 247, 1);
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-Orden-pay {
+    background-color: rgba(249, 249, 249, 1);
+    height: 100%;
+    width: 100%;
+  }
+
+  .takeaway-Orden-pay-view {
+    background-color: rgba(249, 249, 249, 1);
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+  }
+
+  .barra {
+    background-color: burlywood;
+  }
+
+  .search {
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 1rem;
+  }
+
+  .search-page {
+    display: grid;
+    grid-template-columns: 0.15fr 1.1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+
+  .lenguaje {
+    display: flex;
+    justify-content: center;
+
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 3vh;
+  }
+
+  .esp {
+    background-color: rgba(245, 245, 245, 1);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-top: 0.1rem;
+  }
+
+  .ing {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding-left: 0.8rem;
+    padding-top: 0.1rem;
+    color: rgba(196, 196, 196, 1);
+  }
+
+  .search-content {
+    text-align: center;
+    padding-left: 4rem;
+  }
+
+  .placeholder {
+    color: rgba(236, 236, 236, 1);
+    border-radius: 5px;
+    border: 1px solid rgba(210, 210, 210, 1);
+    background-color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+  }
+
+  .search-lupa {
+    display: flex;
+    padding-left: 2rem;
+  }
+  .search-input {
+    margin-left: 10rem;
+    width: 100%;
+    height: 4vh;
+    position: relative;
+    border: 1px solid rgba(210, 210, 210, 1);
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 1);
+  }
+
+  .serch-icon {
+    position: absolute;
+    padding-left: 35rem;
+    padding-top: 0.5rem;
+  }
+
+  .orden {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    padding-left: 4rem;
+  }
+
+  .inicio {
+    background-color: white;
+    padding: 1rem 5rem;
+    border-radius: 8px;
+    border: 1px solid red;
+    color: red;
+  }
+  .mesa {
+    background-color: red;
+    padding: 1rem 0rem;
+    border-radius: 8px;
+    width: 100%;
+  }
+  .personas {
+    background-color: rgba(247, 247, 247, 1);
+    color: rgba(155, 155, 155, 1);
+    border: 1px solid rgba(155, 155, 155, 1);
+    border-radius: 8px;
+    padding: 1rem 0rem;
+    width: 50%;
+  }
+  .conetenido {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .conetenido-page {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2fr;
+    height: 100%;
+    width: 100%;
+    gap: 2rem;
+    text-align: center;
+  }
+  .orden-bottom-info-pedidos {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    align-content: center;
+  }
+  .contendio-izquierda {
+    margin: 0;
+    padding: 0;
+  }
+
+  .contendio-izquierda-ctg {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem 1rem;
+    width: 100%;
+    height: 96%;
+  }
+  .ctgIzquierda__titulo {
+    font-size: 15px;
+  }
+
+  .ctgDerecho__titulo {
+    font-size: 15px;
+  }
+
+  .pizzas {
+    grid-area: 1/1/2/2;
+    background-color: green;
+    padding-top: 2.5rem;
+    border-radius: 8px;
+    color: white;
+  }
+  .sushi {
+    grid-area: 1/2/2/3;
+    background-color: red;
+    padding-top: 2.5rem;
+    border-radius: 8px;
+    color: white;
+  }
+
+  .Ensalada {
+    grid-area: 2/1/3/2;
+    background-color: rgb(228, 170, 95);
+    padding-top: 2.5rem;
+    border-radius: 8px;
+  }
+  .Hamburguesa {
+    grid-area: 2/2/3/3;
+    background-color: black;
+    padding-top: 2.5rem;
+    border-radius: 8px;
+  }
+  .Carne {
+    grid-area: 3/1/4/2;
+    background-color: rgb(29, 85, 131);
+    padding-top: 2.5rem;
+    border-radius: 8px;
+  }
+  .Torta {
+    grid-area: 3/2/4/3;
+    background-color: rgb(64, 141, 64);
+    padding-top: 2.5rem;
+    border-radius: 8px;
+  }
+  .Mariscos {
+    grid-area: 4/1/5/2;
+    background-color: rgb(228, 170, 95);
+    padding-top: 2.5rem;
+    border-radius: 8px;
+  }
+  .Hot_Dog {
+    grid-area: 4/2/5/3;
+    background-color: red;
+    padding-top: 2.5rem;
+    border-radius: 8px;
+  }
+  .Pollo_asado {
+    grid-area: 5/1/6/2;
+    background-color: red;
+    padding-top: 2.5rem;
+    border-radius: 8px;
+    width: 100%;
+  }
+  .Pasta {
+    grid-area: 5/2/6/3;
+    background-color: rgb(29, 85, 131);
+    padding-top: 2.5rem;
+    border-radius: 8px;
+  }
+  .Pastelitos {
+    grid-area: 6/1/7/2;
+    background-color: rgb(64, 141, 64);
+    padding-top: 2.5rem;
+    border-radius: 8px;
+  }
+
+  .Entrada {
+    grid-area: 6/2/7/3;
+    background-color: rgb(228, 170, 95);
+    padding-top: 2.5rem;
+    border-radius: 8px;
+  }
+  .contendio-medio {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .hamburguesas-container {
+    display: block;
+    height: 79vh;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .hamburguesa {
+    background-color: rgba(255, 255, 255, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+
+  .hamburguesa-izq {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 80%;
+    height: 95%;
+  }
+
+  .comida1 {
+    position: relative;
+    width: 4rem;
+    padding-bottom: 1rem;
+  }
+
+  .hamburguesa-info {
+    text-align: center;
+  }
+
+  .hamburguesa-med {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 80%;
+    height: 95%;
+  }
+
+  .hamburguesa-der {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 80%;
+    height: 95%;
+  }
+
+  .orden-content {
+    display: grid;
+    grid-template-rows: 0fr 0fr 0fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .orden-content-pay {
+    display: grid;
+    grid-template-rows: 0fr 0.5fr 0.2fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .orden-content-orden {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .orden-top {
+    height: 100%;
+    width: 100%;
+  }
+
+  .orden-top-content {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    height: 100%;
+    width: 100%;
+    padding: 1rem 0rem;
+  }
+
+  .header-orden {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 1rem;
+  }
+
+  .orden-top-eat {
+    display: block;
+    height: 25vh;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+    background-color: rgba(247, 247, 247, 1);
+  }
+
+  .eat-order {
+    background-color: rgba(247, 247, 247, 1);
+    margin-top: 0rem;
+    padding: 0rem 0rem;
+  }
+  .eat-order-2 {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0rem 0rem;
+  }
+  .cant {
+    padding-left: 3rem;
+  }
+  .orden-bottom {
+    background-color: rgba(247, 247, 247, 1);
+    display: grid;
+
+    height: 100%;
+    width: 100%;
+  }
+
+  .eat {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    padding-right: 1rem;
+  }
+
+  .number {
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top: 1.5rem;
+  }
+
+  .content-eat {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .cant-eat {
+    padding: 0.4rem 1.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin-left: -2rem;
+    font-weight: bolder;
+  }
+
+  .total {
+    padding-right: 2rem;
+  }
+  .delet {
+    position: absolute;
+  }
+
+  .orden-bottom-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+  }
+
+  .orden-bottom-top {
+    padding-right: 1rem;
+    border-right: 1px solid rgb(209, 209, 209);
+    justify-content: center;
+    align-content: center;
+    display: block;
+    font-size: 1.4rem;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .orden-bottom-title {
+    border-radius: 8px;
+    border: 1px solid rgb(209, 209, 209);
+    margin: 2rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .orden-bottom-client {
+    border-radius: 8px;
+    border: 1px solid rgb(209, 209, 209);
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .orden-bottom-info {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    font-size: 1.2rem;
+    padding-top: 3rem;
+    margin-bottom: 0rem;
+    height: 100%;
+  }
+
+  .orden-bottom-top-info {
+    text-align: justify;
+    line-height: 2.6rem;
+  }
+
+  .orden-bottom-bottom-info {
+    text-align: justify;
+    line-height: 2.7rem;
+  }
+  .orden-bottom-buttons {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 0rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    gap: 4rem;
+    justify-content: center;
+  }
+
+  .orden-bottom-button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+  }
+
+  .orden-imprimir {
+    background-color: white;
+    color: red;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid red;
+    width: 38%;
+  }
+
+  .orden-pagar {
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    width: 38%;
+  }
+
+  .imagen {
+    height: 100%;
+    width: 50%;
+    padding-top: 2rem;
+    padding-left: 5rem;
+  }
+
+  .LLevar {
+    height: 100%;
+    width: 100%;
+    padding-top: 1.5rem;
+    font-size: 20px;
+  }
+
+  .Mesas {
+    height: 100%;
+    width: 100%;
+    padding-top: 1.5rem;
+    font-size: 20px;
+  }
+  .Delivery-takeaway {
+    height: 90%;
+    width: 100%;
+    padding-top: 1.5rem;
+    margin-top: 0.3rem;
+    font-size: 20px;
+    border-right: 1px solid white;
+  }
+
+  .noti-takeaway-img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .Pickup-takeaway {
+    height: 90%;
+    width: 100%;
+    padding-top: 1.5rem;
+    font-size: 20px;
+    margin-top: 0.3rem;
+    border-right: 1px solid white;
+  }
+  .takeaway-OrdenPedidos {
+    display: grid;
+    grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-FooterPay {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    padding: 1rem;
+  }
+
+  .paymente {
+    display: grid;
+    grid-template-rows: 0.96fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+  .top {
+    width: 100%;
+    height: 100%;
+  }
+  .methoPay {
+    width: 100%;
+    height: 100%;
+  }
+  .orden-header {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+  }
+  .orden-top-eat-content {
+    display: block;
+    height: 22vh;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .eat-order-content {
+    background-color: rgba(247, 247, 247, 1);
+    margin-top: 0rem;
+  }
+
+  .eat-order-content-2 {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0rem 0.01rem;
+  }
+  .takeaway-ContenidoOrder {
+    background-color: rgba(247, 247, 247, 1);
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    padding: 0rem 1rem;
+  }
+  .takeaway-ContenidoOrder-Orden {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .button-orden {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    width: 100%;
+    height: 100%;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    border-right: 1px solid rgb(209, 209, 209);
+    font-size: 1.2rem;
+    align-items: center;
+  }
+  .bottom-title-orden {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 0rem;
+  }
+
+  .bottom-data-orden {
+    display: block;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 0rem;
+  }
+  .bottom-client-orden {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .point {
+    font-size: 36px;
+    color: red;
+    font-weight: bolder;
+  }
+
+  .total-OrdenView {
+    font-size: 26px;
+    color: red;
+    font-weight: bolder;
+  }
+  .total-OrdenView-total {
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+
+  .total-PedidosOrden-total {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+
+  .total-PedidosOrden {
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+  }
+  .bottom-top-info-orden {
+    text-align: justify;
+    line-height: 3.4rem;
+    padding: 1rem;
+  }
+
+  .total-OrdennPedidosMetodo {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+
+  .total-OrdenPedidosMetodo {
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+  }
+  .orden-cabecera {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 0.5rem;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    align-items: center;
+  }
+
+  .home {
+    padding: 1rem 3rem;
+    background-color: rgba(247, 247, 247, 1);
+    color: red;
+    border: 1px solid rgba(252, 63, 63, 1);
+    border-radius: 8px;
+    font-weight: bolder;
+  }
+
+  .table-mesa-void {
+    background-color: rgba(127, 127, 127, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem 8rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .table-mesa {
+    background-color: rgba(252, 63, 63, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem 5rem;
+    font-weight: bolder;
+  }
+
+  .table-mesa-view {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem 8rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .pax-mesa {
+    background-color: rgba(236, 236, 236, 1);
+    color: rgba(155, 155, 155, 1);
+    border-radius: 8px;
+    padding: 1rem 5rem;
+    font-weight: bolder;
+  }
+  .takeaway-SearchPrden {
+    height: 100%;
+    width: 100%;
+  }
+  .takeaway-TopOrder {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(42, 126, 67);
+  }
+  .takeaway-ContenedorOrder {
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid rgb(209, 209, 209);
+
+    padding: 1rem;
+  }
+  .footerPay {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+    gap: 1rem;
+    padding-top: 4rem;
+  }
+
+  .total-pay {
+    font-size: 26px;
+    color: red;
+    font-weight: bolder;
+  }
+
+  .anular {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+
+  .anular-view {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .imprimir {
+    background-color: rgba(255, 255, 255, 1);
+    color: red;
+    border: 1px solid rgba(252, 63, 63, 1);
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .pagar {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5rem 5rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .pagar-view {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5rem 8rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .bottom-buttons-orden {
+    display: flex;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .methoPay-Footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  .confirm-pay {
+    color: white;
+    background-color: rgba(224, 30, 38, 1);
+    border-radius: 5px;
+    padding: 1.4rem 7rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .back {
+    color: red;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(196, 196, 196, 1);
+    border-radius: 5px;
+    padding: 1.4rem 4rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .next-pay {
+    color: white;
+    background-color: rgba(224, 30, 38, 1);
+    border-radius: 5px;
+    padding: 1.4rem 10rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .top-pay {
+    padding: 5rem 0rem;
+  }
+  .top-pay-title {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    padding-left: 2rem;
+  }
+  .top-pay-info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+  }
+  .top-pay-info-title {
+    background-color: rgba(249, 249, 249, 1);
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 2rem 5rem;
+    color: red;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .staff {
+    background-color: rgba(249, 249, 249, 1);
+    margin-top: 4rem;
+    margin-right: 30rem;
+    margin-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 5px;
+    border: 1px solid red;
+    color: red;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    width: 44%;
+  }
+  .orden-content-pedidos {
+    display: grid;
+    grid-template-rows: 0fr 1fr 0fr;
+  }
+  .paymente-pay {
+    display: grid;
+    grid-template-rows: 0.958fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .paymente-pay-container {
+    display: grid;
+    grid-template-rows: 0.955fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+  .Metodo {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .title-metodo {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .Metodo-content {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .CardMetodo {
+    background-color: rgba(196, 196, 196, 1);
+  }
+  .Cash {
+    background-color: rgba(196, 196, 196, 1);
+    width: 100%;
+    height: 100%;
+  }
+  #cssportal-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  #div1 {
+    grid-area: 1/1/2/2;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div2 {
+    grid-area: 1/2/2/3;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div3 {
+    grid-area: 1/3/2/4;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div4 {
+    grid-area: 2/1/3/2;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div5 {
+    grid-area: 2/2/3/3;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div6 {
+    grid-area: 2/3/3/4;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div7 {
+    grid-area: 3/1/4/2;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div8 {
+    grid-area: 3 / 2 / 4 / 4;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .check {
+    position: absolute;
+    padding-left: 27.5rem;
+    padding-top: 3.5rem;
+  }
+  .metodoPay-Footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .reserv-payment-btn {
+    color: white;
+  }
+  .modal-header-pay {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 2rem;
+    align-self: center;
+  }
+  .modal-title-pay-check {
+    padding-left: 6rem;
+  }
+  .modal-title-pay {
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    border-radius: 10rem;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .paymnent-successful {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: rgba(141, 141, 141, 1);
+  }
+  .receipt-printed {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 46, 46, 1);
+    padding: 1rem 5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+  }
+  .ViewOrdenPrevius {
+    text-align: center;
+    padding: 1rem 3rem;
+    display: block;
+  }
+  .ViewOrdenPrevius-viwe {
+    background-color: rgba(254, 254, 254, 1);
+    border-radius: 5px;
+    color: red;
+    border: 1px solid red;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 2rem 10rem;
+  }
+  .ViewOrdenPrevius-order {
+    background-color: rgba(252, 63, 63, 1);
+    border-radius: 5px;
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 2rem 10rem;
+    margin-top: 5rem;
+  }
+  .takeaway-Orden-number {
+    text-align: center;
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  .takeaway-Orden-number-info {
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .takeaway-Orden-number-info-data {
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .takeaway-Orden-number-completed {
+    background-color: rgba(127, 127, 127, 1);
+    padding: 2rem 1rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    margin-top: 4rem;
+    border-radius: 5px;
+  }
+  .CrearOrden {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem 2rem;
+  }
+  .CrearOrden-text {
+    background-color: rgba(255, 255, 255, 1);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    padding: 10rem 2rem;
+  }
+  .Agregar {
+    display: flex;
+    border: 1px solid red;
+    border-radius: 8px;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    padding: 3rem 3rem;
+  }
+  .agregado {
+    width: 88%;
+    height: 50%;
+    margin-top: 10rem;
+    padding-right: 1rem;
+    position: absolute;
+  }
+  .icon {
+    position: absolute;
+    padding-left: 10rem;
+  }
+
+  .metodoCash {
+    width: 100%;
+    height: 100%;
+  }
+
+  .titleCash {
+    text-align: left;
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .display-input {
+    padding-top: 2rem;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    position: absolute;
+    overflow: hidden;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .keypad {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    width: 100%;
+    height: 95%;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+  .keypad-grid {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 99.5%;
+    height: 56%;
+    margin-top: 19.2rem;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.16px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .uno {
+    grid-area: 1/1/2/2;
+    padding: 1rem 0rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .dos {
+    grid-area: 1/2/2/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .tres {
+    grid-area: 1/3/2/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .cuatro {
+    grid-area: 2/1/3/2;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .cinco {
+    grid-area: 2/2/3/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .seis {
+    grid-area: 2/3/3/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .siete {
+    grid-area: 3/1/4/2;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .ocho {
+    grid-area: 3/2/4/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .nueve {
+    grid-area: 3/3/4/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .clear {
+    grid-area: 4/1/5/2;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .cero {
+    grid-area: 4/2/5/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .punto {
+    grid-area: 4/3/5/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+    font-size: 50px;
+  }
+  .backNumbre {
+    grid-area: 5/1/6/2;
+    padding: 1rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+    color: red;
+  }
+  .enter {
+    grid-area: 5 / 2 / 6 / 4;
+    padding: 1rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: red;
+    color: white;
+  }
+  .ConfirmPrinft {
+    display: grid;
+    grid-template-rows: 1fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .PrinftContent {
+    display: block;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+  }
+
+  .PrinftContentData {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left: 13rem;
+  }
+
+  .PrinftContentData-change {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(252, 63, 63, 1);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    gap: 8rem;
+    width: 60%;
+    padding: 1rem;
+    margin-left: 11rem;
+    margin-top: 3rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .PrinftFooter {
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .PrinftFooterText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: red;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 1.5rem 0rem;
+  }
+
+  .PrinftFooterBack {
+    color: red;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 2rem 3rem;
+    width: 30%;
+    height: 100%;
+  }
+
+  .PrinftFooterConfirm {
+    background-color: rgba(255, 46, 46, 1);
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 1.5rem 12rem;
+    width: 100%;
+  }
+  .amount {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .amount-value {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .change {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .change-value {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    color: rgba(252, 63, 63, 1);
+  }
+  .modal-title-pay-anular {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-top: 1rem;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    width: 25%;
+  }
+
+  .close-modal {
+    position: fixed;
+    padding-left: 35rem;
+    padding-top: 1.5rem;
+  }
+
+  .modal-title-anular {
+    margin-left: 1.5rem;
+    width: 100px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .confirm-text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 46, 46, 1);
+    padding: 1rem 5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .anular-view-void {
+    background-color: rgba(127, 127, 127, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+
+  .imprimir-void {
+    background-color: rgba(255, 255, 255, 1);
+    color: red;
+    border: 1px solid rgba(252, 63, 63, 1);
+    border-radius: 5px;
+    padding: 1.4rem 6rem;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .pagar-view-void {
+    background-color: rgba(127, 127, 127, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5rem 6rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1840px) {
+  .takeaway-page {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .takeaway {
+    display: grid;
+    grid-template-rows: 0.1fr 6fr;
+    background-color: aqua;
+  }
+
+  .takeaway-Orden {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(249, 249, 249, 1);
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-Orden-content {
+    background-color: rgba(247, 247, 247, 1);
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-Orden-pay {
+    background-color: rgba(249, 249, 249, 1);
+    padding: 1rem 1rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .takeaway-Orden-pay-view {
+    background-color: rgba(249, 249, 249, 1);
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+  }
+
+  .barra {
+    background-color: burlywood;
+  }
+
+  .search {
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 1rem;
+  }
+
+  .search-page {
+    display: grid;
+    grid-template-columns: 0.15fr 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+
+  .lenguaje {
+    display: flex;
+    justify-content: center;
+
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 3vh;
+  }
+
+  .esp {
+    background-color: rgba(245, 245, 245, 1);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  .ing {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    color: rgba(196, 196, 196, 1);
+  }
+
+  .search-content {
+    text-align: center;
+
+    padding-left: 7rem;
+  }
+
+  .placeholder {
+    color: rgba(245, 245, 245, 1);
+    border-radius: 5px;
+    border: 1px solid rgba(210, 210, 210, 1);
+    background-color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+  }
+
+  .search-lupa {
+    display: flex;
+    padding-left: 2rem;
+  }
+  .search-input {
+    margin-left: 11rem;
+    width: 80%;
+    height: 4vh;
+    position: relative;
+    border: 1px solid rgba(210, 210, 210, 1);
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 1);
+  }
+
+  .serch-icon {
+    position: absolute;
+    padding-left: 48rem;
+    padding-top: 1rem;
+  }
+
+  .orden {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    padding-left: 7rem;
+  }
+
+  .inicio {
+    background-color: white;
+    padding: 1rem 5rem;
+    border-radius: 8px;
+    border: 1px solid red;
+    color: red;
+  }
+  .mesa {
+    background-color: red;
+    padding: 1rem 0rem;
+    border-radius: 8px;
+    width: 100%;
+  }
+  .mesa-desc {
+    background-color: rgba(127, 127, 127, 1);
+    padding: 1rem 0rem;
+    border-radius: 8px;
+    width: 100%;
+  }
+  .personas {
+    background-color: rgba(247, 247, 247, 1);
+    color: rgba(155, 155, 155, 1);
+    border: 1px solid rgba(155, 155, 155, 1);
+    border-radius: 8px;
+    padding: 1rem 0rem;
+    width: 50%;
+  }
+  .conetenido {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .conetenido-page {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2fr;
+    height: 100%;
+    width: 100%;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .contendio-izquierda {
+    margin: 0;
+    padding: 0;
+  }
+
+  .contendio-izquierda-ctg {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 100%;
+    height: 97%;
+    padding: 1rem 1rem;
+  }
+
+  .pizzas {
+    grid-area: 1/1/2/2;
+    background-color: green;
+    padding-top: 4.5rem;
+    border-radius: 8px;
+  }
+  .sushi {
+    grid-area: 1/2/2/3;
+    background-color: red;
+    padding-top: 4.5rem;
+    border-radius: 8px;
+  }
+
+  .Ensalada {
+    grid-area: 2/1/3/2;
+    background-color: rgb(228, 170, 95);
+    padding-top: 4.5rem;
+    border-radius: 8px;
+  }
+  .Hamburguesa {
+    grid-area: 2/2/3/3;
+    background-color: black;
+    padding-top: 4.5rem;
+    border-radius: 8px;
+  }
+  .Carne {
+    grid-area: 3/1/4/2;
+    background-color: rgb(29, 85, 131);
+    padding-top: 4.5rem;
+    border-radius: 8px;
+  }
+  .Torta {
+    grid-area: 3/2/4/3;
+    background-color: rgb(64, 141, 64);
+    padding-top: 4.5rem;
+    border-radius: 8px;
+  }
+  .Mariscos {
+    grid-area: 4/1/5/2;
+    background-color: rgb(228, 170, 95);
+    padding-top: 4.5rem;
+    border-radius: 8px;
+  }
+  .Hot_Dog {
+    grid-area: 4/2/5/3;
+    background-color: red;
+    padding-top: 4.5rem;
+    border-radius: 8px;
+  }
+  .Pollo_asado {
+    grid-area: 5/1/6/2;
+    background-color: red;
+    padding-top: 4.5rem;
+    border-radius: 8px;
+  }
+  .Pasta {
+    grid-area: 5/2/6/3;
+    background-color: rgb(29, 85, 131);
+    padding-top: 4.5rem;
+    border-radius: 8px;
+  }
+  .Pastelitos {
+    grid-area: 6/1/7/2;
+    background-color: rgb(64, 141, 64);
+    padding-top: 4.5rem;
+    border-radius: 8px;
+  }
+
+  .Entrada {
+    grid-area: 6/2/7/3;
+    background-color: rgb(228, 170, 95);
+    padding-top: 4.5rem;
+    border-radius: 8px;
+  }
+  .contendio-medio {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .hamburguesas-container {
+    display: block;
+    height: 87vh;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+  }
+
+  .hamburguesa {
+    background-color: rgba(255, 255, 255, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+  }
+
+  .hamburguesa-izq {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 80%;
+    height: 95%;
+  }
+
+  .comida1 {
+    position: relative;
+    width: 4rem;
+    padding-bottom: 1rem;
+  }
+
+  .hamburguesa-info {
+    text-align: center;
+  }
+
+  .hamburguesa-med {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 80%;
+    height: 95%;
+  }
+
+  .hamburguesa-der {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem;
+    width: 80%;
+    height: 95%;
+  }
+
+  .orden-content {
+    display: grid;
+    grid-template-rows: 0fr 1fr 0.9fr;
+    gap: 1rem;
+  }
+
+  .orden-content-pay {
+    display: grid;
+    grid-template-rows: 0fr 1fr 0.9fr 0.2fr;
+  }
+
+  .orden-content-orden {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .orden-top {
+    height: 100%;
+  }
+
+  .orden-top-content {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .header-orden {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 1rem;
+  }
+
+  .orden-top-eat {
+    display: block;
+    height: 35vh;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+    background-color: rgba(247, 247, 247, 1);
+  }
+
+  .eat-order {
+    background-color: rgba(247, 247, 247, 1);
+    padding-left: 1rem;
+  }
+  .eat-order-2 {
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 1rem;
+  }
+  .cant {
+    padding-left: 3rem;
+  }
+  .orden-bottom {
+    background-color: rgba(247, 247, 247, 1);
+    display: grid;
+    grid-template-rows: 35fr 1fr;
+    height: 100%;
+    width: 100%;
+  }
+
+  .eat {
+    display: grid;
+    grid-template-columns: 1fr 25fr;
+    padding-right: 1rem;
+  }
+
+  .number {
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    padding-top: 1.5rem;
+  }
+
+  .content-eat {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .cant-eat {
+    padding: 0.4rem 1.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin-left: -2rem;
+    font-weight: bolder;
+  }
+
+  .total {
+    padding-right: 2rem;
+  }
+  .delet {
+    position: absolute;
+  }
+
+  .orden-bottom-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+  }
+
+  .orden-bottom-top {
+    padding-right: 1rem;
+    border-right: 1px solid rgb(209, 209, 209);
+    display: block;
+    font-size: 1.5rem;
+    align-content: center;
+  }
+
+  .orden-bottom-title {
+    border-radius: 8px;
+    border: 1px solid rgb(209, 209, 209);
+    margin: 3rem 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .orden-bottom-client {
+    border-radius: 8px;
+    border: 1px solid rgb(209, 209, 209);
+    margin: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .orden-bottom-info {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    align-content: center;
+  }
+
+  .point {
+    font-size: 36px;
+    color: red;
+    font-weight: bolder;
+  }
+
+  .orden-bottom-top-info {
+    text-align: justify;
+    line-height: 3rem;
+  }
+
+  .orden-bottom-bottom-info {
+    text-align: justify;
+    line-height: 3rem;
+  }
+  .orden-bottom-buttons {
+    display: flex;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    gap: 4rem;
+    justify-content: center;
+  }
+
+  .imprimir-desc {
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 1.5rem 10rem;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .pagar-desc {
+    color: white;
+    background-color: rgba(127, 127, 127, 1);
+    border-radius: 5px;
+    padding: 1rem 5rem;
+    padding: 1.5rem 10rem;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .orden-bottom-button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+  }
+
+  .orden-imprimir {
+    background-color: white;
+    color: red;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid red;
+  }
+
+  .orden-pagar {
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    width: 38%;
+  }
+
+  .imagen {
+    height: 100%;
+    width: 50%;
+    padding-top: 2rem;
+    padding-left: 5rem;
+  }
+
+  .LLevar {
+    height: 100%;
+    width: 100%;
+    padding-top: 1.5rem;
+    font-size: 20px;
+  }
+
+  .Mesas {
+    height: 100%;
+    width: 100%;
+    padding-top: 1.5rem;
+    font-size: 20px;
+  }
+  .Delivery-takeaway {
+    height: 90%;
+    width: 100%;
+    padding-top: 1.5rem;
+    margin-top: 0.3rem;
+    font-size: 20px;
+    border-right: 1px solid white;
+  }
+
+  .noti-takeaway {
+    position: absolute;
+    padding-left: 67rem;
+    padding-top: 1rem;
+  }
+
+  .noti-takeaway-img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .Pickup-takeaway {
+    height: 90%;
+    width: 100%;
+    padding-top: 1.5rem;
+    font-size: 20px;
+    margin-top: 0.3rem;
+    border-right: 1px solid white;
+  }
+  .navbar-takeaway {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 12rem;
+    padding-right: 1rem;
+    height: 100%;
+    width: 100%;
+  }
+
+  .noti-takeaway {
+    position: absolute;
+    padding-left: 80rem;
+    padding-top: 0.5rem;
+  }
+  .headerFood {
+    background-color: rgba(252, 63, 63, 1);
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: flex;
+
+    overflow: hidden;
+  }
+
+  .takeaway-OrdenPedidos {
+    display: grid;
+    grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .takeaway-FooterPay {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    padding: 1rem;
+  }
+
+  .paymente {
+    display: grid;
+    grid-template-rows: 0.96fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+  .top {
+    width: 100%;
+    height: 100%;
+  }
+  .top-desc {
+    width: 100%;
+    height: 90%;
+  }
+  .methoPay {
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    padding-left: 0rem;
+  }
+  .methoPay-desc {
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    padding-left: 0rem;
+    padding-bottom: 2rem;
+  }
+  .orden-header {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+  }
+  .orden-top-eat-content {
+    display: block;
+    height: 36.2vh;
+    overflow: auto;
+    position: relative;
+    scrollbar-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1);
+    background-color: rgba(247, 247, 247, 1);
+  }
+
+  .eat-order-content {
+    background-color: rgba(247, 247, 247, 1);
+    margin-top: 0rem;
+  }
+
+  .eat-order-content-2 {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0rem 0rem;
+  }
+  .takeaway-ContenidoOrder {
+    background-color: rgba(247, 247, 247, 1);
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    padding: 0rem 1rem;
+  }
+  .takeaway-ContenidoOrder-Orden {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(247, 247, 247, 1);
+  }
+  .button-orden {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    width: 100%;
+    height: 100%;
+    padding-right: 1rem;
+    border-right: 1px solid rgb(209, 209, 209);
+    font-size: 1.5rem;
+    align-items: center;
+    gap: 5rem;
+  }
+  .bottom-title-orden {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 1rem;
+  }
+
+  .bottom-data-orden {
+    display: block;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 1rem;
+  }
+  .bottom-client-orden {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3rem;
+  }
+
+  .bottom-top-info-orden {
+    text-align: justify;
+    line-height: 5.6rem;
+  }
+
+  .total-pay {
+    font-size: 25px;
+    color: rgba(252, 63, 63, 1);
+    font-weight: bolder;
+  }
+  .orden-cabecera {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .home {
+    padding: 1rem 6rem;
+    background-color: rgba(247, 247, 247, 1);
+    color: red;
+    border: 1px solid rgba(252, 63, 63, 1);
+    border-radius: 8px;
+    font-weight: bolder;
+  }
+  .table-mesa {
+    background-color: rgba(252, 63, 63, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem 10rem;
+    font-weight: bolder;
+  }
+
+  .table-mesa-view {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem 10rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .table-mesa-void {
+    background-color: rgba(127, 127, 127, 1);
+    color: white;
+    border-radius: 8px;
+    padding: 1rem 10rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .pax-mesa {
+    background-color: rgba(236, 236, 236, 1);
+    color: rgba(155, 155, 155, 1);
+    border-radius: 8px;
+    padding: 1rem 5rem;
+    font-weight: bolder;
+  }
+  .takeaway-SearchPrden {
+    height: 100%;
+    width: 100%;
+  }
+  .takeaway-TopOrder {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(42, 126, 67);
+  }
+  .takeaway-ContenedorOrder {
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid rgb(209, 209, 209);
+
+    padding: 1rem;
+  }
+  .footerPay {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    gap: 2rem;
+  }
+
+  .anular {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+
+  .anular-view {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+
+  .anular-view-void {
+    background-color: rgba(127, 127, 127, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.4rem 2rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+
+  .confirm-pay {
+    color: white;
+    background-color: rgba(224, 30, 38, 1);
+    border-radius: 5px;
+    padding: 1.4rem 15rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .imprimir {
+    background-color: rgba(255, 255, 255, 1);
+    color: red;
+    border: 1px solid rgba(252, 63, 63, 1);
+    border-radius: 5px;
+    padding: 1.4rem 10rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+
+  .imprimir-void {
+    background-color: rgba(255, 255, 255, 1);
+    color: red;
+    border: 1px solid rgba(252, 63, 63, 1);
+    border-radius: 5px;
+    padding: 1.4rem 10rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .pagar {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5rem 8rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .pagar-view {
+    background-color: rgba(224, 30, 38, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5rem 8rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .pagar-view-void {
+    background-color: rgba(127, 127, 127, 1);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5rem 8rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .bottom-buttons-orden {
+    display: flex;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .methoPay-Footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 7rem;
+  }
+  .back {
+    color: red;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(196, 196, 196, 1);
+    border-radius: 5px;
+    padding: 1.4rem 6rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .total-PedidosOrden {
+    font-size: 20px;
+    color: rgba(252, 63, 63, 1);
+    font-weight: bolder;
+  }
+
+  .total-PedidosOrden-total {
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+
+  .orden-bottom-info-pedidos {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    font-size: 1.5rem;
+    padding-top: 8rem;
+    align-content: center;
+  }
+
+  .next-pay {
+    color: white;
+    background-color: rgba(224, 30, 38, 1);
+    border-radius: 5px;
+    padding: 1.4rem 18rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .top-pay {
+    padding: 5rem 1rem;
+  }
+  .top-pay-title {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .top-pay-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+  }
+  .top-pay-info-title {
+    background-color: rgba(249, 249, 249, 1);
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 2rem 10rem;
+    color: red;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .top-pay-info-title-desc {
+    background-color: rgba(252, 63, 63, 1);
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 2rem 10rem;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .staff {
+    background-color: rgba(249, 249, 249, 1);
+    margin-top: 4rem;
+    margin-right: 36rem;
+    border-radius: 5px;
+    padding: 2rem 10rem;
+    border: 1px solid red;
+    color: red;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .total-descuento {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 35rem;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .total-discount {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .discount {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: right;
+    color: red;
+  }
+  .orden-content-pedidos {
+    display: grid;
+    grid-template-rows: 1fr 0.9fr 0fr;
+  }
+  .paymente-pay {
+    display: grid;
+    grid-template-rows: 1fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .paymente-pay-desc {
+    display: grid;
+    grid-template-rows: 0.97fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .paymente-pay-container {
+    display: grid;
+    grid-template-rows: 0.97fr 0fr;
+    width: 100%;
+    height: 100%;
+  }
+  .Metodo {
+    padding-top: 5rem;
+    text-align: center;
+  }
+
+  .metodo-desc {
+    display: flex;
+    border: 1px solid rgba(153, 153, 153, 1);
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    width: 80%;
+    height: 100%;
+  }
+  .card-desc {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    padding: 3rem 6rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    border-radius: 8px;
+    margin: 4rem 2rem;
+  }
+
+  .cash-desc {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    padding: 3rem 6rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    border-radius: 8px;
+    margin: 4rem 2rem;
+  }
+
+  .card-desc-card {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    padding: 3rem 6rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    border-radius: 8px;
+    margin: 4rem 2rem;
+  }
+
+  .cash-desc-cash {
+    background-color: red;
+    color: white;
+    padding: 3rem 6rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    border-radius: 8px;
+    margin: 4rem 2rem;
+  }
+  .card-desc-card-card {
+    background-color: red;
+    color: white;
+    padding: 3rem 6rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    border-radius: 8px;
+    margin: 4rem 2rem;
+  }
+  .title-metodo {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .Metodo-content {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .CardMetodo {
+    background-color: rgba(196, 196, 196, 1);
+  }
+  .Cash {
+    background-color: rgba(196, 196, 196, 1);
+    width: 100%;
+    height: 100%;
+  }
+  #cssportal-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 5rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+  #div1 {
+    grid-area: 1/1/2/2;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div2 {
+    grid-area: 1/2/2/3;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div3 {
+    grid-area: 1/3/2/4;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div4 {
+    grid-area: 2/1/3/2;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div5 {
+    grid-area: 2/2/3/3;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div6 {
+    grid-area: 2/3/3/4;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div7 {
+    grid-area: 3/1/4/2;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div8 {
+    grid-area: 3 / 2 / 4 / 4;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div8-desc {
+    grid-area: 3 / 2 / 4 / 3;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #div9 {
+    grid-area: 3/3/4/4;
+    background-color: rgba(196, 196, 196, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .check {
+    position: absolute;
+    padding-left: 38rem;
+    padding-top: 3.5rem;
+  }
+  .check-desc {
+    position: absolute;
+    padding-left: 23rem;
+    padding-top: 3.5rem;
+  }
+  .metodoPay-Footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .reserv-payment-btn {
+    color: white;
+  }
+  .modal-header-pay {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 2rem;
+    align-self: center;
+  }
+  .modal-title-pay-check {
+    padding-left: 8rem;
+  }
+  .modal-title-pay {
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    border-radius: 10rem;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .total-OrdenPedidosMetodo {
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+  }
+
+  .total-OrdennPedidosMetodo {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+  }
+  .paymnent-successful {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: rgba(141, 141, 141, 1);
+  }
+  .receipt-printed {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 46, 46, 1);
+    padding: 1rem 5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+  }
+  .ViewOrdenPrevius {
+    text-align: center;
+    padding: 1rem 10rem;
+    display: block;
+  }
+  .ViewOrdenPrevius-viwe {
+    background-color: rgba(254, 254, 254, 1);
+    border-radius: 5px;
+    color: red;
+    border: 1px solid red;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 2rem 10rem;
+  }
+  .ViewOrdenPrevius-order {
+    background-color: rgba(252, 63, 63, 1);
+    border-radius: 5px;
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 2rem 10rem;
+    margin-top: 5rem;
+  }
+  .takeaway-Orden-number {
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .takeaway-Orden-number-info {
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+  }
+  .takeaway-Orden-number-info-data {
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .takeaway-Orden-number-completed {
+    background-color: rgba(252, 63, 63, 1);
+    padding: 2rem 1rem;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    margin-top: 4rem;
+    border-radius: 5px;
+  }
+  .CrearOrden {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem 2rem;
+  }
+  .CrearOrden-text {
+    background-color: rgba(255, 255, 255, 1);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    padding: 10rem 5rem;
+  }
+  .Agregar {
+    display: flex;
+    border: 1px solid red;
+    border-radius: 8px;
+    width: 20%;
+    height: 10%;
+    align-items: center;
+    padding: 3rem 3rem;
+  }
+  .agregado {
+    width: 88%;
+    height: 50%;
+    margin-top: 10rem;
+    position: absolute;
+  }
+  .icon {
+    position: absolute;
+    padding-left: 10rem;
+  }
+
+  .keypad {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    gap: 20rem;
+    width: 100%;
+    height: 98%;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+  .keypad-Desc {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    gap: 20rem;
+    width: 100%;
+    height: 96%;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .titleCash {
+    text-align: left;
+    position: absolute;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+  .change-buttom {
+    position: absolute;
+    padding-top: 2.5rem;
+    margin-left: 60rem;
+  }
+
+  .display-input {
+    padding-top: 2rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    position: absolute;
+    overflow: hidden;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .keypad-grid {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 56%;
+    margin-top: 25rem;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.16px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .uno {
+    grid-area: 1/1/2/2;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .dos {
+    grid-area: 1/2/2/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .tres {
+    grid-area: 1/3/2/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .cuatro {
+    grid-area: 2/1/3/2;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .cinco {
+    grid-area: 2/2/3/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .seis {
+    grid-area: 2/3/3/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .siete {
+    grid-area: 3/1/4/2;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .ocho {
+    grid-area: 3/2/4/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .nueve {
+    grid-area: 3/3/4/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .clear {
+    grid-area: 4/1/5/2;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .cero {
+    grid-area: 4/2/5/3;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+  }
+  .punto {
+    grid-area: 4/3/5/4;
+    padding: 2rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+    font-size: 50px;
+  }
+  .backNumbre {
+    grid-area: 5/1/6/2;
+    padding: 1rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: rgba(255, 255, 255, 1);
+    color: red;
+  }
+  .enter {
+    grid-area: 5 / 2 / 6 / 4;
+    padding: 1rem 1rem;
+    border: none;
+    border: 1px solid rgba(204, 204, 204, 1);
+    background: red;
+    color: white;
+  }
+
+  .metodoCash {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ConfirmPrinft {
+    display: grid;
+    grid-template-rows: 1.4fr 0.1fr;
+    width: 100%;
+    height: 100%;
+  }
+
+  .PrinftContent {
+    display: block;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+  }
+
+  .PrinftContentData {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin-left: 21rem;
+    margin-top: 3rem;
+  }
+
+  .amount {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .amount-value {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .PrinftContentData-change {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(252, 63, 63, 1);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    gap: 1rem;
+    width: 50%;
+    padding: 1rem;
+    margin-left: 18rem;
+    margin-top: 3rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .change {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: left;
+  }
+
+  .change-value {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    color: rgba(252, 63, 63, 1);
+  }
+
+  .PrinftFooterText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .PrinftFooterBack {
+    color: red;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 2rem 3rem;
+
+    width: 30%;
+    height: 100%;
+  }
+
+  .PrinftFooterConfirm {
+    background-color: rgba(255, 46, 46, 1);
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    padding: 1rem 15rem;
+  }
+  .modal-title-pay-anular {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-top: 1rem;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    width: 25%;
+  }
+
+  .modal-title-anular {
+    margin-left: 1.5rem;
+    width: 100px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .confirm-text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    letter-spacing: 0.055em;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 46, 46, 1);
+    padding: 1rem 5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+  }
+}

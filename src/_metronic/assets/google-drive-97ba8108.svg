@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_4" data-name="Capa 4" xmlns="http://www.w3.org/2000/svg" width="512.475" height="512.193" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.475 512.193">
+  <defs>
+    <linearGradient id="Degradado_sin_nombre_6" data-name="Degradado sin nombre 6" x1="-.125" y1="512.237" x2=".079" y2="512.033" gradientTransform="translate(376.693 721874.961) scale(1686.523 -1409.18)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6c338"/>
+      <stop offset=".523" stop-color="#ffd351"/>
+      <stop offset="1" stop-color="#f6c338"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_5" data-name="Degradado sin nombre 5" x1=".291" y1="513.934" x2=".087" y2="513.73" gradientTransform="translate(-90.363 387284.155) scale(2066.406 -752.93)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#286ee6"/>
+      <stop offset=".521" stop-color="#4286fb"/>
+      <stop offset="1" stop-color="#286ee6"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_4" data-name="Degradado sin nombre 4" x1=".401" y1="512.155" x2=".342" y2="511.951" gradientTransform="translate(-336.613 1107374.915) scale(1250 -2162.109)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#069b5a"/>
+      <stop offset=".531" stop-color="#11aa62"/>
+      <stop offset="1" stop-color="#069b5a"/>
+    </linearGradient>
+  </defs>
+  <path d="M166.238,40.404h177.368l166.806,287.575h-177.767L166.238,40.404Z" fill="url(#Degradado_sin_nombre_6)" stroke-width="0"/>
+  <path d="M510.412,327.979l-88.883,153.653H88.714l89.083-153.653h332.615Z" fill="url(#Degradado_sin_nombre_5)" stroke-width="0"/>
+  <path d="M88.714,481.632L.229,327.979,166.238,40.404l89.083,154.051L88.714,481.632Z" fill="url(#Degradado_sin_nombre_4)" stroke-width="0"/>
+  <path d="M88.714,481.632l165.61-153.653h-76.527l-89.083,153.653ZM510.412,327.979h-177.567l-39.061-67.36,216.628,67.36ZM166.238,40.404l51.218,219.219,37.865-65.168L166.238,40.404Z" isolation="isolate" opacity=".1" stroke-width="0"/>
+</svg>
