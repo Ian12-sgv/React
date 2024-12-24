@@ -1,3 +1,3 @@
 //mesas
 
-import * from './mesas/mesasa1'
+import * as mesasa1 from './mesas/mesasa1'
